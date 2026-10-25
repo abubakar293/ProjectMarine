@@ -203,7 +203,7 @@ pip install numpy scipy navaltoolbox ezdxf  # navaltoolbox is AGPL; see LICENSE 
 python3 test_solver_groundtruth.py          # both solvers vs an analytic prism: exact
 python3 structure.py && python3 powering.py # module self-tests
 python3 run_case.py                         # brief.json -> full design record (~45 s)
-python3 agents/run_fleet.py                 # 60 reviewers -> findings.json
+python3 agents/run_fleet.py                 # 64 reviewers -> findings.json
 python3 edi_trade.py                        # 768-combination EEDI trade study
 ```
 

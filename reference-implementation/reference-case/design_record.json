@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-25T20:10:17+0600",
+  "generated_utc": "2026-10-25T21:47:31+0600",
   "brief": {
     "ship_type": "Handysize bulk carrier",
     "service": "minor bulks: grain, coal, iron ore, steel, logs",
@@ -851,7 +851,7 @@
       {
         "quantity": "wetted_surface_m2",
         "independent": NaN,
-        "navaltoolbox": 8071.406040052027,
+        "navaltoolbox": 8071.406040052025,
         "delta": null,
         "delta_pct": null
       },
@@ -974,7 +974,7 @@
     "speed_kn": 14.0,
     "speed_m_s": 7.202216,
     "froude_number_Lpp": 0.17142318175999086,
-    "reynolds": 48850428339.62969,
+    "reynolds": 48850428339.6297,
     "Cf_ITTC57": 0.0009934244091575188,
     "form_factor": {
       "form_factor_1_plus_k": 1.45,
@@ -987,11 +987,11 @@
       "reason_not_computed": "the published regression was mis-transcribed and gave 1+k = 279.7; deleted rather than fitted to look right",
       "action_required": "evaluate (1+k) from a transcribed-and-unit-tested Katsui or Holtrop implementation, or determine it from a model test per ITTC low-Froude-number extrapolation, or by CFD"
     },
-    "wetted_surface_m2": 8071.406040052025,
+    "wetted_surface_m2": 8071.406040052027,
     "wetted_surface_source": "navaltoolbox mesh solver",
-    "R_fric_N": 309085.17731946084,
+    "R_fric_N": 309085.17731946096,
     "R_appendage_N": 2905.0503619412675,
-    "R_wave_N": 46362.776597919124,
+    "R_wave_N": 46362.77659791914,
     "R_wave": {
       "method": "declared planning allowance, NOT a regression evaluation",
       "source": "ESTIMATE",
@@ -999,14 +999,14 @@
       "uncertainty": "+/- 8 percentage points of R_F",
       "action_required": "replace with a verified wave-resistance method, model test, or parent-ship correlation before any warranty is offered"
     },
-    "R_total_calm_N": 358353.00427932123,
+    "R_total_calm_N": 358353.00427932135,
     "roughness_allowance_frac": 0.04,
     "sea_margin_frac": 0.15,
-    "R_total_with_margins_N": 428590.19311806816,
-    "EHP_calm_kW": 2580.935741068596,
-    "EHP_kW": 3086.79914631804,
-    "DHP_kW": 4060.087961671792,
-    "installed_MCR_kW": 4360.996736489573,
+    "R_total_with_margins_N": 428590.1931180683,
+    "EHP_calm_kW": 2580.9357410685966,
+    "EHP_kW": 3086.799146318041,
+    "DHP_kW": 4060.0879616717934,
+    "installed_MCR_kW": 4360.996736489575,
     "propulsion": {
       "wake_fraction_w": 0.3725,
       "thrust_deduction_t": 0.204875,
@@ -1105,8 +1105,8 @@
       "formula": "961.0 * DWT^(-0.4778) * (1 - 0.3)"
     },
     "attained_edi": {
-      "attained_gCO2_t_nm": 6.341914021492461,
-      "P_ME_kW": 4360.996736489573,
+      "attained_gCO2_t_nm": 6.341914021492464,
+      "P_ME_kW": 4360.996736489575,
       "P_AE_kW": 359.02491841223934,
       "V_ref_kn": 10.5,
       "DWT_t": 37668.58284663717,
@@ -1128,14 +1128,14 @@
       "note": "P_ME should be the MCR at which V_ref is measured; if the engine is derated, V_ref must be consistent with that derating"
     },
     "edi_margin": {
-      "attained": 6.341914021492461,
+      "attained": 6.341914021492464,
       "required": 4.379439457412792,
-      "margin_pct": -44.81109016721116,
+      "margin_pct": -44.811090167211226,
       "compliant": false,
       "sensitivity": "a 10% power underestimate moves attained EEDI by -10%; the declared ESTIMATE-class wave and propulsor terms are larger than that, so this margin is indicative only"
     },
-    "range_nm": 29362.77275036145,
-    "consumption_t_per_day": 18.777451733830116,
+    "range_nm": 29362.772750361444,
+    "consumption_t_per_day": 18.777451733830123,
     "range_ok": true,
     "edi_trade_study": {
       "max_compliant_speed_kn_at_current_power": 5.9,
@@ -1624,10 +1624,10 @@
       "midship_section": "midship_section.dxf"
     },
     "hashes": {
-      "lines_plan": "64ed52a162bd4dce",
-      "hydrostatic_curves": "099775a06f4bf37c",
-      "gz_curves": "0a36415fb779c0f9",
-      "midship_section": "2da5b2cdcb6399b7"
+      "lines_plan": "213e95ab54735be9",
+      "hydrostatic_curves": "96ae5443dc854b45",
+      "gz_curves": "3424a751f2ea2710",
+      "midship_section": "015e8f277860160b"
     },
     "verification": {
       "lines_plan": [
@@ -1811,88 +1811,88 @@
   },
   "run_log": [
     {
-      "t": "20:10:17",
+      "t": "21:47:31",
       "stage": "S0-brief",
       "msg": "7 requirements frozen",
       "file": "brief.json sha256:3e215c69b1dfca00"
     },
     {
-      "t": "20:10:20",
+      "t": "21:47:33",
       "stage": "S1-S2-hull",
       "msg": "Cb=0.8450 Cm=0.9609 Cp=0.8794 LCB=50.52%  mesh closed=True (522 degenerate triangles removed)"
     },
     {
-      "t": "20:10:25",
+      "t": "21:47:39",
       "stage": "S3-loading",
       "msg": "22 tanks, 5 loading conditions"
     },
     {
-      "t": "20:10:25",
+      "t": "21:47:40",
       "stage": "S3-hydrostatics",
       "msg": "draft=10.1852 m KB=5.3256 BMt=6.7431 GM_solid=6.8090 FSC=0.3019 GM_fluid=6.5072"
     },
     {
-      "t": "20:10:49",
+      "t": "21:48:04",
       "stage": "S3-crosscheck",
       "msg": "two independent solvers agree; worst non-zero delta = 5.6640%"
     },
     {
-      "t": "20:10:49",
+      "t": "21:48:04",
       "stage": "S3-intact",
       "msg": "all evaluated IS Code criteria passed = True; open items = ['IS-2.2.3']"
     },
     {
-      "t": "20:10:49",
+      "t": "21:48:04",
       "stage": "S4-powering",
       "msg": "Fn=0.1714 Rt_calm=358,353 N Rt_sea=428,590 N EHP=3,087 kW MCR=4,361 kW"
     },
     {
-      "t": "20:10:49",
+      "t": "21:48:04",
       "stage": "S4-EEDI",
       "msg": "DWT=37,669 t  required=4.3794 attained=6.3419  margin=-44.8%  COMPLIANT=False"
     },
     {
-      "t": "20:10:49",
+      "t": "21:48:04",
       "stage": "S4-range",
       "msg": "consumption=18.78 t/day, fuel=1,641 t, range=29,363 nm (target 12000 nm) -> OK"
     },
     {
-      "t": "20:10:49",
+      "t": "21:48:04",
       "stage": "S4-EEDI-trade",
       "msg": "compliant at <= 5.9 kn (-8.1 kn) or MCR <= 2,911 kW (-33.2%)"
     },
     {
-      "t": "20:10:50",
+      "t": "21:48:05",
       "stage": "S5-structure",
       "msg": "M_sw(midship)=-1,834,163 kNm (direct integration, max |BM| = 2,143,237 kNm at x=83.0 m); M_vw=OPEN; Z_deck=15,977,030 cm3; girder check -> OPEN"
     },
     {
-      "t": "20:10:51",
+      "t": "21:48:06",
       "stage": "S5-fe-crosscheck",
       "msg": "beam FE vs integrator: corr=0.99997, max diff=0.605% of peak (2,143,237 kNm) -> PASS"
     },
     {
-      "t": "20:10:54",
+      "t": "21:48:09",
       "stage": "S6-explore",
       "msg": "3 candidates scored; selected=C-full-ends; best composite=88.50593607286274; gate_passed=True"
     },
     {
-      "t": "20:10:54",
+      "t": "21:48:09",
       "stage": "S6-steel",
       "msg": "hull steel take-off 7,068 t (lightship 9,062 t -> steel fraction 78.0%)"
     },
     {
-      "t": "20:10:54",
+      "t": "21:48:09",
       "stage": "S7-traceability",
       "msg": "4 PASS, 1 FAIL ['R-05'], 2 OPEN ['R-02', 'R-04']"
     },
     {
-      "t": "20:10:57",
+      "t": "21:48:12",
       "stage": "S9-drawings",
       "msg": "4 sheets generated and read-back verified: 19 checks, all_pass=True"
     },
     {
-      "t": "20:10:57",
+      "t": "21:48:12",
       "stage": "S9-finalization",
       "msg": "status=NOT_FINALIZED blockers=['R-05'] open=['R-02', 'R-04', 'IS-2.2.3', 'M_vw']"
     }

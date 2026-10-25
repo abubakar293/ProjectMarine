@@ -66,3 +66,9 @@ poisoned by the hull's degenerate triangles (#14); the one wrong on both was bro
 - Never compute a derivative-based quantity (Awp, BMt from d²V) as the primary method when
   the direct waterplane-polygon integral is available — finite differences of a clipped
   volume produced BMt = 0.333 vs 5.5556 on the analytic box during development.
+
+## Escalation
+
+- Persistent solver disagreement (>0.5% upright, >1.0% GZ up to 40°) after mesh bisection and datum alignment indicates geometry defect or degenerate boundary; escalate to the senior naval architect.
+- Negative GM, non-monotonic displacement curve, or failed equilibrium convergence (<1e-4 m residual) halts the design cycle and requires manual hydrostatic model audit.
+- Large-angle GZ asymmetry or downflooding angle violation requires immediate stability book revision and owner notification.

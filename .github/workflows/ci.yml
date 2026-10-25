@@ -41,7 +41,7 @@ jobs:
       - name: EEDI trade study
         working-directory: reference-implementation/code
         run: python3 edi_trade.py
-      - name: Design verification fleet (60 agents, zero crashes required)
+      - name: Design verification fleet (64 agents, zero crashes required)
         working-directory: reference-implementation/code
         run: python3 agents/run_fleet.py
       - name: Repo review fleet (zero crashes required)

@@ -98,7 +98,7 @@
     {
       "quantity": "wetted_surface_m2",
       "independent": NaN,
-      "navaltoolbox": 8071.406040052027,
+      "navaltoolbox": 8071.406040052025,
       "delta": null,
       "delta_pct": null
     },

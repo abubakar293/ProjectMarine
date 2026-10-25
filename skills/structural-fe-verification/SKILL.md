@@ -68,3 +68,9 @@ from this sentence).
   paper-over).
 - No hot-spot results from a coarse mesh.
 - No fatigue declared out of scope on a trade where it governs (handysize with grabs: it does).
+
+## Escalation
+
+- FE model non-convergence, ill-conditioned stiffness matrix, or global equilibrium residual >1% requires mesh restructuring and review by the structural FE lead.
+- Yield or buckling utilisation exceeding class allowable (η > 1.0) under governing load cases requires scantling reinforcement or structural layout revision sign-off.
+- Fatigue hot-spot screening failure at critical block intersections requires formal escalation to class society plan approval.

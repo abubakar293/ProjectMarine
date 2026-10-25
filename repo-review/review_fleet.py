@@ -414,7 +414,9 @@ def rr22(c):
 def rr23(c):
     f = []
     for d, t in c.skill_texts.items():
-        has = any(w in t for w in ("human-gates", "escalat", "OPEN item", "owner", "sign"))
+        has = any(w in t for w in ("human-gates", "escalat", "OPEN item", "owner")) or bool(
+            re.search(r"\b(sign|sign-off|signed|signature|signing)\b", t, re.IGNORECASE)
+        )
         if not has:
             f.append(finding("RR23", "MAJOR", f"{d}: no escalation/human path", "-",
                              "every skill must know where its authority ends"))

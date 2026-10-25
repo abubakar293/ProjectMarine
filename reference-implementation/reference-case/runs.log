@@ -1,17 +1,17 @@
-{"t": "20:10:17", "stage": "S0-brief", "msg": "7 requirements frozen", "file": "brief.json sha256:3e215c69b1dfca00"}
-{"t": "20:10:20", "stage": "S1-S2-hull", "msg": "Cb=0.8450 Cm=0.9609 Cp=0.8794 LCB=50.52%  mesh closed=True (522 degenerate triangles removed)"}
-{"t": "20:10:25", "stage": "S3-loading", "msg": "22 tanks, 5 loading conditions"}
-{"t": "20:10:25", "stage": "S3-hydrostatics", "msg": "draft=10.1852 m KB=5.3256 BMt=6.7431 GM_solid=6.8090 FSC=0.3019 GM_fluid=6.5072"}
-{"t": "20:10:49", "stage": "S3-crosscheck", "msg": "two independent solvers agree; worst non-zero delta = 5.6640%"}
-{"t": "20:10:49", "stage": "S3-intact", "msg": "all evaluated IS Code criteria passed = True; open items = ['IS-2.2.3']"}
-{"t": "20:10:49", "stage": "S4-powering", "msg": "Fn=0.1714 Rt_calm=358,353 N Rt_sea=428,590 N EHP=3,087 kW MCR=4,361 kW"}
-{"t": "20:10:49", "stage": "S4-EEDI", "msg": "DWT=37,669 t  required=4.3794 attained=6.3419  margin=-44.8%  COMPLIANT=False"}
-{"t": "20:10:49", "stage": "S4-range", "msg": "consumption=18.78 t/day, fuel=1,641 t, range=29,363 nm (target 12000 nm) -> OK"}
-{"t": "20:10:49", "stage": "S4-EEDI-trade", "msg": "compliant at <= 5.9 kn (-8.1 kn) or MCR <= 2,911 kW (-33.2%)"}
-{"t": "20:10:50", "stage": "S5-structure", "msg": "M_sw(midship)=-1,834,163 kNm (direct integration, max |BM| = 2,143,237 kNm at x=83.0 m); M_vw=OPEN; Z_deck=15,977,030 cm3; girder check -> OPEN"}
-{"t": "20:10:51", "stage": "S5-fe-crosscheck", "msg": "beam FE vs integrator: corr=0.99997, max diff=0.605% of peak (2,143,237 kNm) -> PASS"}
-{"t": "20:10:54", "stage": "S6-explore", "msg": "3 candidates scored; selected=C-full-ends; best composite=88.50593607286274; gate_passed=True"}
-{"t": "20:10:54", "stage": "S6-steel", "msg": "hull steel take-off 7,068 t (lightship 9,062 t -> steel fraction 78.0%)"}
-{"t": "20:10:54", "stage": "S7-traceability", "msg": "4 PASS, 1 FAIL ['R-05'], 2 OPEN ['R-02', 'R-04']"}
-{"t": "20:10:57", "stage": "S9-drawings", "msg": "4 sheets generated and read-back verified: 19 checks, all_pass=True"}
-{"t": "20:10:57", "stage": "S9-finalization", "msg": "status=NOT_FINALIZED blockers=['R-05'] open=['R-02', 'R-04', 'IS-2.2.3', 'M_vw']"}
+{"t": "21:47:31", "stage": "S0-brief", "msg": "7 requirements frozen", "file": "brief.json sha256:3e215c69b1dfca00"}
+{"t": "21:47:33", "stage": "S1-S2-hull", "msg": "Cb=0.8450 Cm=0.9609 Cp=0.8794 LCB=50.52%  mesh closed=True (522 degenerate triangles removed)"}
+{"t": "21:47:39", "stage": "S3-loading", "msg": "22 tanks, 5 loading conditions"}
+{"t": "21:47:40", "stage": "S3-hydrostatics", "msg": "draft=10.1852 m KB=5.3256 BMt=6.7431 GM_solid=6.8090 FSC=0.3019 GM_fluid=6.5072"}
+{"t": "21:48:04", "stage": "S3-crosscheck", "msg": "two independent solvers agree; worst non-zero delta = 5.6640%"}
+{"t": "21:48:04", "stage": "S3-intact", "msg": "all evaluated IS Code criteria passed = True; open items = ['IS-2.2.3']"}
+{"t": "21:48:04", "stage": "S4-powering", "msg": "Fn=0.1714 Rt_calm=358,353 N Rt_sea=428,590 N EHP=3,087 kW MCR=4,361 kW"}
+{"t": "21:48:04", "stage": "S4-EEDI", "msg": "DWT=37,669 t  required=4.3794 attained=6.3419  margin=-44.8%  COMPLIANT=False"}
+{"t": "21:48:04", "stage": "S4-range", "msg": "consumption=18.78 t/day, fuel=1,641 t, range=29,363 nm (target 12000 nm) -> OK"}
+{"t": "21:48:04", "stage": "S4-EEDI-trade", "msg": "compliant at <= 5.9 kn (-8.1 kn) or MCR <= 2,911 kW (-33.2%)"}
+{"t": "21:48:05", "stage": "S5-structure", "msg": "M_sw(midship)=-1,834,163 kNm (direct integration, max |BM| = 2,143,237 kNm at x=83.0 m); M_vw=OPEN; Z_deck=15,977,030 cm3; girder check -> OPEN"}
+{"t": "21:48:06", "stage": "S5-fe-crosscheck", "msg": "beam FE vs integrator: corr=0.99997, max diff=0.605% of peak (2,143,237 kNm) -> PASS"}
+{"t": "21:48:09", "stage": "S6-explore", "msg": "3 candidates scored; selected=C-full-ends; best composite=88.50593607286274; gate_passed=True"}
+{"t": "21:48:09", "stage": "S6-steel", "msg": "hull steel take-off 7,068 t (lightship 9,062 t -> steel fraction 78.0%)"}
+{"t": "21:48:09", "stage": "S7-traceability", "msg": "4 PASS, 1 FAIL ['R-05'], 2 OPEN ['R-02', 'R-04']"}
+{"t": "21:48:12", "stage": "S9-drawings", "msg": "4 sheets generated and read-back verified: 19 checks, all_pass=True"}
+{"t": "21:48:12", "stage": "S9-finalization", "msg": "status=NOT_FINALIZED blockers=['R-05'] open=['R-02', 'R-04', 'IS-2.2.3', 'M_vw']"}

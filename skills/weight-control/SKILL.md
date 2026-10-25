@@ -67,3 +67,9 @@ cannot show growth (fleet finding: zero-margin groups are MAJOR).
 - No weight reduction accepted into the record without the stability/strength re-run it triggers.
 - No inclining-test surprise culture: if margins were honest, the test confirms; if it
   doesn't, the process gets an audit, not a shrug.
+
+## Escalation
+
+- Lightship weight growth >2% between design milestones or center of gravity (KG) rise >1% requires immediate design freeze and weight audit meeting with discipline leads.
+- Inability to close the equilibrium balance within ±2% margin at Stage 1 triggers redesign or owner scope adjustment.
+- Deadweight deficit threatening contract cargo intake requires formal owner notification and propulsion/scantling re-optimization.

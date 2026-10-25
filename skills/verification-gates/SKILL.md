@@ -102,3 +102,9 @@ Do not tune until plausible. Diagnose: build the smallest case with a known answ
 every intermediate term, and reason numerically, not algebraically. Two wrong hand-derivations
 of one rotation matrix were each "fixed" by a third derivation before a 6-line numeric
 probe settled it in one shot (see reference-implementation/code/diagnostics/).
+
+## Escalation
+
+- Any unresolvable ground-truth discrepancy, solver divergence, or failed physical invariant must be escalated to the chief naval architect with the diagnostic trace.
+- A gate failure under governing operating conditions is a hard stop; waiving a gate requires written owner and class approval, never an agent bypass.
+- When two solvers cannot be reconciled through mesh refinement or convention alignment, file an OPEN item and request third-party benchmark verification.

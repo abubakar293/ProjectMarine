@@ -6,10 +6,10 @@
     "midship_section": "midship_section.dxf"
   },
   "hashes": {
-    "lines_plan": "64ed52a162bd4dce",
-    "hydrostatic_curves": "099775a06f4bf37c",
-    "gz_curves": "0a36415fb779c0f9",
-    "midship_section": "2da5b2cdcb6399b7"
+    "lines_plan": "213e95ab54735be9",
+    "hydrostatic_curves": "96ae5443dc854b45",
+    "gz_curves": "3424a751f2ea2710",
+    "midship_section": "015e8f277860160b"
   },
   "verification": {
     "lines_plan": [

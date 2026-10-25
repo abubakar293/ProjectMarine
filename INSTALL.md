@@ -80,7 +80,7 @@ python3 test_solver_groundtruth.py     # ~2 s, must print exact agreement
 python3 structure.py                   # SWBM integrator self-tests
 python3 powering.py                    # form-factor / ITTC-57 self-tests
 python3 run_case.py                    # full design record, ~45 s
-python3 agents/run_fleet.py            # 60 reviewers, ~45 s
+python3 agents/run_fleet.py            # 64 reviewers, ~45 s
 python3 edi_trade.py                   # EEDI trade study, <1 s
 ```
 

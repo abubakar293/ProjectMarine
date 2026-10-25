@@ -181,7 +181,7 @@
       "name": "escalation-path",
       "status": "ok",
       "findings": 1,
-      "worst": "MAJOR",
+      "worst": "PASS",
       "seconds": 0.0
     },
     {
@@ -246,7 +246,7 @@
       "status": "ok",
       "findings": 1,
       "worst": "PASS",
-      "seconds": 0.12
+      "seconds": 0.11
     },
     {
       "id": "RR32",
@@ -254,7 +254,7 @@
       "status": "ok",
       "findings": 1,
       "worst": "PASS",
-      "seconds": 0.05
+      "seconds": 0.04
     },
     {
       "id": "RR33",
@@ -278,7 +278,7 @@
       "status": "ok",
       "findings": 1,
       "worst": "PASS",
-      "seconds": 43.16
+      "seconds": 43.68
     },
     {
       "id": "RR36",
@@ -388,7 +388,7 @@
       "id": "RR49",
       "name": "hygiene",
       "status": "ok",
-      "findings": 10,
+      "findings": 12,
       "worst": "MINOR",
       "seconds": 0.0
     },
@@ -438,7 +438,7 @@
       "status": "ok",
       "findings": 1,
       "worst": "PASS",
-      "seconds": 8.78
+      "seconds": 8.49
     },
     {
       "id": "RR56",
@@ -628,10 +628,10 @@
     },
     {
       "agent": "RR23",
-      "severity": "MAJOR",
-      "title": "structural-loads: no escalation/human path",
+      "severity": "PASS",
+      "title": "escalation defined across the fleet",
       "evidence": "-",
-      "action_required": "every skill must know where its authority ends",
+      "action_required": "-",
       "owner": "maintainers"
     },
     {
@@ -915,9 +915,25 @@
       "owner": "maintainers"
     },
     {
+      "agent": "RR49",
+      "severity": "MINOR",
+      "title": "__pycache__ at repo-review",
+      "evidence": "-",
+      "action_required": "add .gitignore",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR49",
+      "severity": "MINOR",
+      "title": "junk file review_fleet.cpython-312.pyc",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
       "agent": "RR50",
       "severity": "PASS",
-      "title": "repo size ok (3.15 MB)",
+      "title": "repo size ok (3.24 MB)",
       "evidence": "-",
       "action_required": "-",
       "owner": "maintainers"
@@ -973,10 +989,10 @@
   ],
   "counts": {
     "BLOCKER": 0,
-    "MAJOR": 1,
-    "MINOR": 10,
+    "MAJOR": 0,
+    "MINOR": 12,
     "INFO": 0,
-    "PASS": 54
+    "PASS": 55
   },
-  "generated_utc": "2026-10-25T20:10:10+0600"
+  "generated_utc": "2026-10-25T21:48:21+0600"
 }

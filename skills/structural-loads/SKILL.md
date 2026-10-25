@@ -71,3 +71,9 @@ the envelope (max hogging/sagging) feeding `scantlings-midship`.
 - No BM curve shipped without BOTH equilibrium identities in the record.
 - No local loads (slamming, green water, cargo grab impacts, container stack weights) folded
   into girder loads — separate local-strength cases.
+
+## Escalation
+
+- Wave bending moment (M_vw) requires direct rule transcription or class software extraction when not available from memory; escalate to the structural lead or class society before freezing the girder envelope.
+- Permissible still-water bending moment exceeded in any approved loading condition requires ballast/cargo redistribution or structural reinforcement sign-off from the lead naval architect.
+- Dynamic slamming, whipping, or springing loads on non-standard hull forms require specialized hydrodynamic/seakeeping analysis beyond beam integration.

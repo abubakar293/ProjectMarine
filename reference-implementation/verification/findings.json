@@ -78,7 +78,7 @@
       "domain": "naval architecture",
       "status": "ok",
       "findings": 1,
-      "seconds": 1.94,
+      "seconds": 1.92,
       "worst": "PASS"
     },
     {
@@ -96,7 +96,7 @@
       "domain": "naval architecture",
       "status": "ok",
       "findings": 2,
-      "seconds": 0.0,
+      "seconds": 0.01,
       "worst": "INFO"
     },
     {
@@ -267,7 +267,7 @@
       "domain": "verification",
       "status": "ok",
       "findings": 1,
-      "seconds": 0.13,
+      "seconds": 0.17,
       "worst": "PASS"
     },
     {
@@ -294,7 +294,7 @@
       "domain": "verification",
       "status": "ok",
       "findings": 3,
-      "seconds": 1.75,
+      "seconds": 1.76,
       "worst": "INFO"
     },
     {
@@ -348,7 +348,7 @@
       "domain": "verification",
       "status": "ok",
       "findings": 1,
-      "seconds": 0.16,
+      "seconds": 0.17,
       "worst": "PASS"
     },
     {
@@ -519,7 +519,7 @@
       "domain": "architecture",
       "status": "ok",
       "findings": 1,
-      "seconds": 2.17,
+      "seconds": 2.18,
       "worst": "PASS"
     },
     {
@@ -564,7 +564,7 @@
       "domain": "verification",
       "status": "ok",
       "findings": 1,
-      "seconds": 0.9,
+      "seconds": 0.3,
       "worst": "PASS"
     },
     {
@@ -1529,5 +1529,5 @@
     "INFO": 15,
     "PASS": 69
   },
-  "generated_utc": "2026-10-25T20:09:07+0600"
+  "generated_utc": "2026-10-25T21:44:54+0600"
 }
