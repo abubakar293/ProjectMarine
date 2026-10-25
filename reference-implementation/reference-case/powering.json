@@ -1,0 +1,164 @@
+{
+  "powering": {
+    "speed_kn": 14.0,
+    "speed_m_s": 7.202216,
+    "froude_number_Lpp": 0.17142318175999086,
+    "reynolds": 48850428347.95882,
+    "Cf_ITTC57": 0.0009934244091405861,
+    "form_factor": {
+      "form_factor_1_plus_k": 1.45,
+      "source": "ESTIMATE",
+      "band": [
+        1.3,
+        1.6
+      ],
+      "uncertainty_on_R_fric_pct": 10.344827586206897,
+      "reason_not_computed": "the published regression was mis-transcribed and gave 1+k = 279.7; deleted rather than fitted to look right",
+      "action_required": "evaluate (1+k) from a transcribed-and-unit-tested Katsui or Holtrop implementation, or determine it from a model test per ITTC low-Froude-number extrapolation, or by CFD"
+    },
+    "wetted_surface_m2": 8071.406041428221,
+    "wetted_surface_source": "navaltoolbox mesh solver",
+    "R_fric_N": 309085.1773668924,
+    "R_appendage_N": 2905.0503618917514,
+    "R_wave_N": 46362.77660503386,
+    "R_wave": {
+      "method": "declared planning allowance, NOT a regression evaluation",
+      "source": "ESTIMATE",
+      "fraction_of_R_F": 0.15,
+      "uncertainty": "+/- 8 percentage points of R_F",
+      "action_required": "replace with a verified wave-resistance method, model test, or parent-ship correlation before any warranty is offered"
+    },
+    "R_total_calm_N": 358353.004333818,
+    "roughness_allowance_frac": 0.04,
+    "sea_margin_frac": 0.15,
+    "R_total_with_margins_N": 428590.1931832463,
+    "EHP_calm_kW": 2580.935741461093,
+    "EHP_kW": 3086.7991467874676,
+    "DHP_kW": 4060.0879622892326,
+    "installed_MCR_kW": 4360.996737152775,
+    "propulsion": {
+      "wake_fraction_w": 0.3725,
+      "thrust_deduction_t": 0.204875,
+      "eta_hull": 1.2671314741035857,
+      "eta_R": 1.0,
+      "eta_0": 0.6,
+      "eta_D": 0.7602788844621514,
+      "source": {
+        "w": "ESTIMATE (Taylor-type)",
+        "t": "ESTIMATE (t = 0.55 w)",
+        "eta_R": "ESTIMATE",
+        "eta_0": "ESTIMATE"
+      },
+      "action_required": "replace with self-propulsion analysis or model test"
+    },
+    "validity": [
+      {
+        "quantity": "Cb",
+        "value": 0.845,
+        "band": [
+          0.45,
+          0.85
+        ],
+        "inside": true,
+        "margin_frac": 0.0125,
+        "severity": "ok"
+      },
+      {
+        "quantity": "Cm",
+        "value": 0.96087,
+        "band": [
+          0.7,
+          1.0
+        ],
+        "inside": true,
+        "margin_frac": 0.1304,
+        "severity": "ok"
+      },
+      {
+        "quantity": "Lpp/B",
+        "value": 6.04027,
+        "band": [
+          4.0,
+          10.0
+        ],
+        "inside": true,
+        "margin_frac": 0.34,
+        "severity": "ok"
+      },
+      {
+        "quantity": "B/T",
+        "value": 2.92582,
+        "band": [
+          1.5,
+          5.0
+        ],
+        "inside": true,
+        "margin_frac": 0.4074,
+        "severity": "ok"
+      },
+      {
+        "quantity": "Fn",
+        "value": 0.17142,
+        "band": [
+          0.05,
+          0.3
+        ],
+        "inside": true,
+        "margin_frac": 0.4857,
+        "severity": "ok"
+      },
+      {
+        "quantity": "LCB%Lpp",
+        "value": 50.52,
+        "band": [
+          48.0,
+          55.0
+        ],
+        "inside": true,
+        "margin_frac": 0.36,
+        "severity": "ok"
+      }
+    ],
+    "outside_band": [],
+    "confidence": "PRELIMINARY - wave resistance, wake, thrust deduction and propeller efficiency are declared estimates, not computed values"
+  },
+  "required_edi": {
+    "reference_line_gCO2_t_nm": 6.153365587623861,
+    "phase": 3,
+    "reduction_factor": 0.3,
+    "required_gCO2_t_nm": 4.307355911336702,
+    "formula": "961.0 * DWT^(-0.4778) * (1 - 0.3)"
+  },
+  "attained_edi": {
+    "attained_gCO2_t_nm": 6.125408045106069,
+    "P_ME_kW": 4360.996737152775,
+    "P_AE_kW": 359.0249184288194,
+    "V_ref_kn": 10.5,
+    "DWT_t": 39000.0,
+    "main_fuel": "HFO",
+    "aux_fuel": "MDO",
+    "cf": [
+      3.206,
+      3.206
+    ],
+    "sfc": [
+      165.0,
+      175.0
+    ],
+    "corrections_applied": {
+      "f_i": 1.0,
+      "f_w": 1.0,
+      "ice_class": "none"
+    },
+    "note": "P_ME should be the MCR at which V_ref is measured; if the engine is derated, V_ref must be consistent with that derating"
+  },
+  "edi_margin": {
+    "attained": 6.125408045106069,
+    "required": 4.307355911336702,
+    "margin_pct": -42.208077790469154,
+    "compliant": false,
+    "sensitivity": "a 10% power underestimate moves attained EEDI by -10%; the declared ESTIMATE-class wave and propulsor terms are larger than that, so this margin is indicative only"
+  },
+  "equilibrium_draft_m": 10.185175649652226,
+  "displacement_t": 46730.08286493035
+}

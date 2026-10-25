@@ -1,0 +1,16 @@
+{
+  "method_a": "direct double integration (rectangle rule, free-free)",
+  "method_b": "Euler-Bernoulli beam FE (consistent + nodal loads, projection)",
+  "n_nodes": 721,
+  "sign_calibration": 1.0,
+  "shape_correlation": 0.9999686121706837,
+  "max_abs_diff_kNm": 12974.156160076149,
+  "scale_peak_BM_kNm": 2143237.297543296,
+  "max_diff_pct_of_peak": 0.6053532277992683,
+  "tolerance_pct": 1.0,
+  "pass": true,
+  "load_equilibrium_residual_kN": -0.0001793950068531558,
+  "note": "two discretisations of the same ODE; disagreement localises quadrature, load-application or sign errors that neither method shows alone",
+  "waterline_draft_at_lcg_m": 10.116910672988606,
+  "trim_deg": 0.6771406618685539
+}

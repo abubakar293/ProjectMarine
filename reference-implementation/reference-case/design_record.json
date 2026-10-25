@@ -1,0 +1,1900 @@
+{
+  "generated_utc": "2026-10-25T20:10:17+0600",
+  "brief": {
+    "ship_type": "Handysize bulk carrier",
+    "service": "minor bulks: grain, coal, iron ore, steel, logs",
+    "trade": "worldwide, unrestricted navigation",
+    "cargo_capacity_target_t": 35500,
+    "dwt_target_t": 39000,
+    "service_speed_kn": 14.0,
+    "range_nm": 12000,
+    "crew": 22,
+    "max_loa_m": 190.0,
+    "max_breadth_m": 29.8,
+    "max_air_draft_m": 25.0,
+    "max_scantling_draft_m": 10.5,
+    "flag": "to be selected",
+    "class_society": "to be selected",
+    "rule_set": "IACS CSR (Bulk Carriers), SOLAS, MARPOL, Load Line, Tonnage, 2008 IS Code, EEDI Phase 3",
+    "propulsion": "single screw, 2-stroke slow-speed diesel, HFO",
+    "holds": 4,
+    "hatch_cranes": 4,
+    "requirements": [
+      {
+        "id": "R-01",
+        "text": "cargo capacity >= 35,500 t homogeneous iron ore",
+        "verify": "capacities plan + loading condition"
+      },
+      {
+        "id": "R-02",
+        "text": "service speed 14.0 kn at scantling draft, 15% sea margin",
+        "verify": "speed-power prediction"
+      },
+      {
+        "id": "R-03",
+        "text": "intact stability per 2008 IS Code in all approved conditions",
+        "verify": "stability booklet"
+      },
+      {
+        "id": "R-04",
+        "text": "hull girder and local scantlings per CSR",
+        "verify": "structural calculation"
+      },
+      {
+        "id": "R-05",
+        "text": "EEDI Phase 3 compliance",
+        "verify": "EEDI technical file"
+      },
+      {
+        "id": "R-06",
+        "text": "LOA <= 190 m, B <= 29.8 m, T <= 10.5 m",
+        "verify": "principal dimensions"
+      },
+      {
+        "id": "R-07",
+        "text": "range 12,000 nm without refuelling",
+        "verify": "fuel capacity vs consumption"
+      }
+    ]
+  },
+  "hull": {
+    "Lpp_m": 180.0,
+    "B_m": 29.8,
+    "D_m": 15.2,
+    "T_design_m": 10.5,
+    "fullness_exponent_solved": 0.86107,
+    "displaced_volume_m3": 47592.09,
+    "displacement_t_rho1025": 48781.9,
+    "Cb": 0.845,
+    "Cm": 0.96087,
+    "Cp": 0.87941,
+    "LCB_m_from_AP": 90.94,
+    "LCB_pct_Lpp": 50.52,
+    "Am_midship_m2": 300.66,
+    "awp_m2": 4717.146,
+    "lcf_m_from_ap": 90.941,
+    "it_m4": 307460.29,
+    "tpc_t_per_cm": 48.351,
+    "mesh_vertices": 14223,
+    "mesh_triangles": 28960,
+    "vertices_welded": 259,
+    "mesh_closed": true,
+    "mesh_volume_to_main_deck_m3": 69826.2,
+    "mesh_report": {
+      "triangles": 28438,
+      "degenerate_triangles": 0,
+      "non_degenerate_triangles": 28438,
+      "unique_edges": 42657,
+      "edge_multiplicity_hist": {
+        "2": 42657
+      },
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "closed": true,
+      "enclosed_volume_m3": 69826.22523165192
+    },
+    "params": {
+      "loa": 190.0,
+      "lpp": 180.0,
+      "breadth": 29.8,
+      "depth": 15.2,
+      "draft": 10.5,
+      "cb_target": 0.845,
+      "rise_of_floor": 0.1,
+      "bilge_radius": 2.2,
+      "flat_bottom_frac": 0.72,
+      "n_wl": 0.22,
+      "run_frac": 0.22,
+      "ent_frac": 0.18,
+      "fullness_exponent": 0.8610729813575746,
+      "cm_band": [
+        0.96,
+        1.0
+      ],
+      "cp_band": [
+        0.8,
+        0.9
+      ]
+    },
+    "hull_stl_sha256": "ee52e1a8e84a28f2"
+  },
+  "stability": {
+    "equilibrium_draft_m": 10.185175646021527,
+    "hydrostatics": {
+      "volume_m3": 45590.32472881474,
+      "displacement_t": 46730.082847035104,
+      "KB_m": 5.325640693375181,
+      "BMt_m": 6.743068112335484,
+      "BMl_m": 226.98983045538432,
+      "Awp_m2": 4715.243940213415,
+      "LCF_m": 90.93981697097809,
+      "LCB_m": 90.91223701031008,
+      "IT_m4": 307418.66490989056,
+      "IL_m4": 10348540.080599573
+    },
+    "GM_solid_m": 6.809027933092341,
+    "GM_fluid_m": 6.507156675452153,
+    "free_surface": {
+      "fsc_m": 0.3018712576401878,
+      "detail": [
+        {
+          "tank": "FO_DB_1",
+          "fill": 0.9,
+          "i_m4": 4763.446559999999,
+          "fsc_m": 0.10448371641077371
+        },
+        {
+          "tank": "FO_DB_2",
+          "fill": 0.9,
+          "i_m4": 5716.135871999999,
+          "fsc_m": 0.12538045969292844
+        },
+        {
+          "tank": "FO_WING_P",
+          "fill": 0.9,
+          "i_m4": 282.94872566400016,
+          "fsc_m": 0.006206332754799962
+        },
+        {
+          "tank": "FO_WING_S",
+          "fill": 0.9,
+          "i_m4": 282.94872566400016,
+          "fsc_m": 0.006206332754799962
+        },
+        {
+          "tank": "MDO_TANK",
+          "fill": 0.9,
+          "i_m4": 1270.2524160000005,
+          "fsc_m": 0.027862324376206338
+        },
+        {
+          "tank": "FW_TANK",
+          "fill": 0.8,
+          "i_m4": 1411.391573333334,
+          "fsc_m": 0.030958138195784822
+        },
+        {
+          "tank": "NO5_FO_P",
+          "fill": 0.9,
+          "i_m4": 17.642394666666664,
+          "fsc_m": 0.0003869767274473101
+        },
+        {
+          "tank": "NO5_FO_S",
+          "fill": 0.9,
+          "i_m4": 17.642394666666664,
+          "fsc_m": 0.0003869767274473101
+        }
+      ],
+      "n_slack": 8,
+      "note": "rectangular-box approximation of each tank; real tanks need the actual fluid surface second moment at the sounding."
+    },
+    "gz_curve": [
+      {
+        "phi_deg": 0,
+        "GZ_m": -1.0272792084364477e-05,
+        "GZ_navaltoolbox_m": 1e-05,
+        "sinkage_m": -10.185175645939104
+      },
+      {
+        "phi_deg": 5,
+        "GZ_m": 0.5961132000786304,
+        "GZ_navaltoolbox_m": 0.597676,
+        "sinkage_m": -10.166145148103034
+      },
+      {
+        "phi_deg": 10,
+        "GZ_m": 1.202910467454706,
+        "GZ_navaltoolbox_m": 1.205525,
+        "sinkage_m": -10.108805051056358
+      },
+      {
+        "phi_deg": 15,
+        "GZ_m": 1.8230571933382385,
+        "GZ_navaltoolbox_m": 1.8246,
+        "sinkage_m": -10.018366315248706
+      },
+      {
+        "phi_deg": 20,
+        "GZ_m": 2.430944591380484,
+        "GZ_navaltoolbox_m": 2.42906,
+        "sinkage_m": -9.918620694777225
+      },
+      {
+        "phi_deg": 25,
+        "GZ_m": 2.969497711780463,
+        "GZ_navaltoolbox_m": 2.967391,
+        "sinkage_m": -9.854936981836637
+      },
+      {
+        "phi_deg": 30,
+        "GZ_m": 3.40150620047392,
+        "GZ_navaltoolbox_m": 3.395493,
+        "sinkage_m": -9.859605184176168
+      },
+      {
+        "phi_deg": 35,
+        "GZ_m": 3.6954494046103803,
+        "GZ_navaltoolbox_m": 3.691481,
+        "sinkage_m": -9.880238719117962
+      },
+      {
+        "phi_deg": 40,
+        "GZ_m": 3.890504822393248,
+        "GZ_navaltoolbox_m": 3.887273,
+        "sinkage_m": -9.912620197673938
+      },
+      {
+        "phi_deg": 50,
+        "GZ_m": 4.059725914740657,
+        "GZ_navaltoolbox_m": 4.056305,
+        "sinkage_m": -9.985507850857722
+      },
+      {
+        "phi_deg": 60,
+        "GZ_m": 3.9539214316524918,
+        "GZ_navaltoolbox_m": 3.953072,
+        "sinkage_m": -9.958089370554468
+      },
+      {
+        "phi_deg": 70,
+        "GZ_m": 3.647058936865331,
+        "GZ_navaltoolbox_m": 3.775188,
+        "sinkage_m": -9.80914258477501
+      },
+      {
+        "phi_deg": 80,
+        "GZ_m": 3.188678119621602,
+        "GZ_navaltoolbox_m": 3.38013,
+        "sinkage_m": -9.536960006443884
+      },
+      {
+        "phi_deg": 90,
+        "GZ_m": 2.617075847062153,
+        "GZ_navaltoolbox_m": 2.653692,
+        "sinkage_m": -9.146967448200805
+      }
+    ],
+    "intact": {
+      "criteria": [
+        {
+          "id": "IS-2.1.1-a",
+          "source": "IMO 2008 IS Code",
+          "clause": "Part A 2.1.1.1",
+          "description": "Area under GZ curve to phi = 30 deg",
+          "limit": 0.055,
+          "units": "m.rad",
+          "sense": ">=",
+          "computed": 0.9357823870623001,
+          "utilisation": 0.058774348353212116,
+          "passed": true
+        },
+        {
+          "id": "IS-2.1.1-b",
+          "source": "IMO 2008 IS Code",
+          "clause": "Part A 2.1.1.2",
+          "description": "Area under GZ curve to phi = 40 deg (or angle of flooding if less)",
+          "limit": 0.09,
+          "units": "m.rad",
+          "sense": ">=",
+          "computed": 1.5764451879207555,
+          "utilisation": 0.057090472088474606,
+          "passed": true
+        },
+        {
+          "id": "IS-2.1.1-c",
+          "source": "IMO 2008 IS Code",
+          "clause": "Part A 2.1.1.3",
+          "description": "Area under GZ curve between phi = 30 deg and phi = 40 deg (or flooding)",
+          "limit": 0.03,
+          "units": "m.rad",
+          "sense": ">=",
+          "computed": 0.6406628008584554,
+          "utilisation": 0.0468265052377031,
+          "passed": true
+        },
+        {
+          "id": "IS-2.1.2",
+          "source": "IMO 2008 IS Code",
+          "clause": "Part A 2.1.2",
+          "description": "Initial metacentric height GM (corrected for free surfaces)",
+          "limit": 0.15,
+          "units": "m",
+          "sense": ">=",
+          "computed": 6.507156675452153,
+          "utilisation": 0.0230515427061816,
+          "passed": true
+        },
+        {
+          "id": "IS-2.1.3-a",
+          "source": "IMO 2008 IS Code",
+          "clause": "Part A 2.1.3.1",
+          "description": "GZ at phi = 30 deg",
+          "limit": 0.2,
+          "units": "m",
+          "sense": ">=",
+          "computed": 3.40150620047392,
+          "utilisation": 0.058797482118990316,
+          "passed": true
+        },
+        {
+          "id": "IS-2.1.3-b",
+          "source": "IMO 2008 IS Code",
+          "clause": "Part A 2.1.3.2",
+          "description": "Maximum GZ occurring at an angle not less than",
+          "limit": 25.0,
+          "units": "deg",
+          "sense": ">=",
+          "computed": 50.0,
+          "utilisation": 0.5,
+          "passed": true
+        }
+      ],
+      "open_items": [
+        {
+          "id": "IS-2.2.3",
+          "source": "IMO 2008 IS Code",
+          "clause": "Part A 2.2",
+          "status": "OPEN",
+          "reason": "requires the 2008 IS Code tabulated wave-slope coefficients X1, X2, the roll-radius coefficient k and the standard roll-period formula; these must be read from the Code, not reproduced from memory",
+          "action_required": "run the weather criterion in a class-approved stability tool (NAPA, GHS, Maxsurf Stability, DNV Nauticus Stability) and record the clause-by-clause output, or encode the IS Code tables from a licensed copy of the Code"
+        }
+      ],
+      "areas": {
+        "area_0_30": 0.9357823870623001,
+        "area_0_40": 1.5764451879207555,
+        "area_30_40": 0.6406628008584554,
+        "phi_downflooding": 90.0
+      },
+      "weather": {
+        "implemented": false,
+        "reason": "requires the 2008 IS Code tabulated wave-slope coefficients X1, X2, the roll-radius coefficient k and the standard roll-period formula; these must be read from the Code, not reproduced from memory",
+        "computed_anyway": {
+          "wind_pressure_pa": 504.0,
+          "windage_area_m2": 168.8113819880045,
+          "displacement_N": 458265566.9479743,
+          "pw1_m_per_unit_lever": 0.00018565858458140125,
+          "pw2_m_per_unit_lever": 0.00027848787687210184,
+          "gm_fluid_m": 6.507156675452153,
+          "phi_downflooding_deg_assumed": 40.0
+        },
+        "K": NaN,
+        "passed": null,
+        "action_required": "run the weather criterion in a class-approved stability tool (NAPA, GHS, Maxsurf Stability, DNV Nauticus Stability) and record the clause-by-clause output, or encode the IS Code tables from a licensed copy of the Code"
+      },
+      "free_surface": {
+        "fsc_m": 0.3018712576401878,
+        "detail": [
+          {
+            "tank": "FO_DB_1",
+            "fill": 0.9,
+            "i_m4": 4763.446559999999,
+            "fsc_m": 0.10448371641077371
+          },
+          {
+            "tank": "FO_DB_2",
+            "fill": 0.9,
+            "i_m4": 5716.135871999999,
+            "fsc_m": 0.12538045969292844
+          },
+          {
+            "tank": "FO_WING_P",
+            "fill": 0.9,
+            "i_m4": 282.94872566400016,
+            "fsc_m": 0.006206332754799962
+          },
+          {
+            "tank": "FO_WING_S",
+            "fill": 0.9,
+            "i_m4": 282.94872566400016,
+            "fsc_m": 0.006206332754799962
+          },
+          {
+            "tank": "MDO_TANK",
+            "fill": 0.9,
+            "i_m4": 1270.2524160000005,
+            "fsc_m": 0.027862324376206338
+          },
+          {
+            "tank": "FW_TANK",
+            "fill": 0.8,
+            "i_m4": 1411.391573333334,
+            "fsc_m": 0.030958138195784822
+          },
+          {
+            "tank": "NO5_FO_P",
+            "fill": 0.9,
+            "i_m4": 17.642394666666664,
+            "fsc_m": 0.0003869767274473101
+          },
+          {
+            "tank": "NO5_FO_S",
+            "fill": 0.9,
+            "i_m4": 17.642394666666664,
+            "fsc_m": 0.0003869767274473101
+          }
+        ],
+        "n_slack": 8,
+        "note": "rectangular-box approximation of each tank; real tanks need the actual fluid surface second moment at the sounding."
+      },
+      "gm_fluid_m": 6.507156675452153,
+      "phi_gzmax_deg": 50.0,
+      "all_evaluated_passed": true
+    },
+    "conditions": {
+      "departure_full_cargo": {
+        "displacement_t": 46730.08284663717,
+        "lcg_m": 93.5952632845853,
+        "vcg_m": 5.259680872618325,
+        "n_tanks_filled": 8,
+        "zeta_m": -10.21617514007216,
+        "trim_deg": 0.6771406621298637,
+        "trim_m": 2.1273991772721974,
+        "volume_m3": 45590.32472842651,
+        "lcb_m_from_ap": 93.595263126923,
+        "volume_residual_pct": -3.914647977670162e-08,
+        "lcb_residual_m": -1.576622992160992e-07,
+        "converged": true,
+        "draft_m": 10.185175649652226,
+        "trim_m_over_lpp": 2.1273991772721974,
+        "KB_m": 5.325640695200032,
+        "BMt_m": 6.743068109809202,
+        "Awp_m2": 4715.243940214637,
+        "LCF_m": 90.93981697097455,
+        "GM_solid_m": 6.809027932390909,
+        "GM_fluid_note": "free-surface correction applied in stability stage"
+      },
+      "arrival_full_cargo": {
+        "displacement_t": 44898.52739471002,
+        "lcg_m": 96.66065239829332,
+        "vcg_m": 5.2912235737345,
+        "n_tanks_filled": 8,
+        "zeta_m": -9.943915112366371,
+        "trim_deg": 1.3938905999680293,
+        "trim_m": 4.3799005851693105,
+        "volume_m3": 43803.441360692705,
+        "lcb_m_from_ap": 96.6606523976284,
+        "volume_residual_pct": -1.336810649115262e-10,
+        "lcb_residual_m": -6.649258921243018e-10,
+        "converged": true,
+        "draft_m": 9.806216046795452,
+        "trim_m_over_lpp": 4.3799005851693105,
+        "KB_m": 5.135134110825047,
+        "BMt_m": 5.696481283235533,
+        "Awp_m2": 3150.7120898447915,
+        "LCF_m": 101.33760445380783,
+        "GM_solid_m": 5.5403918203260805,
+        "GM_fluid_note": "free-surface correction applied in stability stage"
+      },
+      "ballast_departure": {
+        "displacement_t": 27502.786969090273,
+        "lcg_m": 86.64813816251961,
+        "vcg_m": 5.524485910091831,
+        "n_tanks_filled": 22,
+        "zeta_m": -6.254125166494674,
+        "trim_deg": -0.6305742015512599,
+        "trim_m": -1.9810872649547335,
+        "volume_m3": 26831.98728691734,
+        "lcb_m_from_ap": 86.64813816106168,
+        "volume_residual_pct": 2.691335477637162e-11,
+        "lcb_residual_m": -1.4579342177967192e-09,
+        "converged": true,
+        "draft_m": 6.206934624257701,
+        "trim_m_over_lpp": -1.9810872649547335,
+        "KB_m": 3.3189237663097275,
+        "BMt_m": 11.457089440052721,
+        "Awp_m2": 4715.233982,
+        "LCF_m": 90.93984805609165,
+        "GM_solid_m": 9.25152729627062,
+        "GM_fluid_note": "free-surface correction applied in stability stage"
+      },
+      "ballast_partial": {
+        "displacement_t": 20180.07012206406,
+        "lcg_m": 82.52609534166949,
+        "vcg_m": 5.893312666577634,
+        "n_tanks_filled": 22,
+        "zeta_m": -4.825611478106305,
+        "trim_deg": -0.910087645662961,
+        "trim_m": -2.859365140562751,
+        "volume_m3": 19687.873289818595,
+        "lcb_m_from_ap": 82.52609528802441,
+        "volume_residual_pct": -7.442308891184734e-10,
+        "lcb_residual_m": -5.3645081266040506e-08,
+        "converged": true,
+        "draft_m": 4.69182126564192,
+        "trim_m_over_lpp": -2.859365140562751,
+        "KB_m": 2.5458485189746214,
+        "BMt_m": 10.76673470200152,
+        "Awp_m2": 2910.153216378448,
+        "LCF_m": 111.1175289602503,
+        "GM_solid_m": 7.419270554398507,
+        "GM_fluid_note": "free-surface correction applied in stability stage"
+      },
+      "heavy_weather": {
+        "displacement_t": 46001.12516567499,
+        "lcg_m": 96.71733020901858,
+        "vcg_m": 5.187769465545339,
+        "n_tanks_filled": 12,
+        "zeta_m": -10.177968494352271,
+        "trim_deg": 1.441859112993176,
+        "trim_m": 4.530690445985842,
+        "volume_m3": 44879.14650309755,
+        "lcb_m_from_ap": 96.7173302084663,
+        "volume_residual_pct": -1.19679457594254e-10,
+        "lcb_residual_m": -5.522906576516107e-10,
+        "converged": true,
+        "draft_m": 10.034350036795512,
+        "trim_m_over_lpp": 4.530690445985842,
+        "KB_m": 5.249829012843876,
+        "BMt_m": 6.8498735414223635,
+        "Awp_m2": 4715.233981999999,
+        "LCF_m": 90.93984805609166,
+        "GM_solid_m": 6.911933088720902,
+        "GM_fluid_note": "free-surface correction applied in stability stage"
+      }
+    },
+    "capacities": [
+      {
+        "tank": "DB_BALLAST_1",
+        "kind": "ballast",
+        "volume_m3_100pct": 916.283844,
+        "mass_t_100pct": 939.1909400999999,
+        "lcg_m": 47.997296492881595,
+        "vcg_m": 0.9731856738925544,
+        "box_volume_m3": 1036.3248,
+        "hull_intersection_ratio": 0.8841666666666667
+      },
+      {
+        "tank": "DB_BALLAST_2",
+        "kind": "ballast",
+        "volume_m3_100pct": 932.6923200000001,
+        "mass_t_100pct": 956.009628,
+        "lcg_m": 83.25,
+        "vcg_m": 0.9796296296296296,
+        "box_volume_m3": 1036.3248,
+        "hull_intersection_ratio": 0.9
+      },
+      {
+        "tank": "DB_BALLAST_3",
+        "kind": "ballast",
+        "volume_m3_100pct": 932.6923200000001,
+        "mass_t_100pct": 956.009628,
+        "lcg_m": 118.75,
+        "vcg_m": 0.9796296296296296,
+        "box_volume_m3": 1036.3248,
+        "hull_intersection_ratio": 0.9
+      },
+      {
+        "tank": "DB_BALLAST_4",
+        "kind": "ballast",
+        "volume_m3_100pct": 804.0153240000001,
+        "mass_t_100pct": 824.1157071,
+        "lcg_m": 152.59706597320366,
+        "vcg_m": 0.9665413533834587,
+        "box_volume_m3": 1036.3248,
+        "hull_intersection_ratio": 0.7758333333333334
+      },
+      {
+        "tank": "WING_BALLAST_1P",
+        "kind": "ballast",
+        "volume_m3_100pct": 1486.1547048500004,
+        "mass_t_100pct": 1523.3085724712503,
+        "lcg_m": 48.49222352294718,
+        "vcg_m": 5.624607353608716,
+        "box_volume_m3": 1619.0518800000002,
+        "hull_intersection_ratio": 0.9179166666666668
+      },
+      {
+        "tank": "WING_BALLAST_1S",
+        "kind": "ballast",
+        "volume_m3_100pct": 1486.1547048500004,
+        "mass_t_100pct": 1523.3085724712503,
+        "lcg_m": 48.49222352294718,
+        "vcg_m": 5.624607353608716,
+        "box_volume_m3": 1619.0518800000002,
+        "hull_intersection_ratio": 0.9179166666666668
+      },
+      {
+        "tank": "WING_BALLAST_2P",
+        "kind": "ballast",
+        "volume_m3_100pct": 1565.0834840000002,
+        "mass_t_100pct": 1604.2105711000002,
+        "lcg_m": 83.25,
+        "vcg_m": 5.6227586206896545,
+        "box_volume_m3": 1619.0518800000002,
+        "hull_intersection_ratio": 0.9666666666666667
+      },
+      {
+        "tank": "WING_BALLAST_2S",
+        "kind": "ballast",
+        "volume_m3_100pct": 1565.0834840000002,
+        "mass_t_100pct": 1604.2105711000002,
+        "lcg_m": 83.25,
+        "vcg_m": 5.6227586206896545,
+        "box_volume_m3": 1619.0518800000002,
+        "hull_intersection_ratio": 0.9666666666666667
+      },
+      {
+        "tank": "WING_BALLAST_3P",
+        "kind": "ballast",
+        "volume_m3_100pct": 1565.0834840000002,
+        "mass_t_100pct": 1604.2105711000002,
+        "lcg_m": 118.75,
+        "vcg_m": 5.6227586206896545,
+        "box_volume_m3": 1619.0518800000002,
+        "hull_intersection_ratio": 0.9666666666666667
+      },
+      {
+        "tank": "WING_BALLAST_3S",
+        "kind": "ballast",
+        "volume_m3_100pct": 1565.0834840000002,
+        "mass_t_100pct": 1604.2105711000002,
+        "lcg_m": 118.75,
+        "vcg_m": 5.6227586206896545,
+        "box_volume_m3": 1619.0518800000002,
+        "hull_intersection_ratio": 0.9666666666666667
+      },
+      {
+        "tank": "WING_BALLAST_4P",
+        "kind": "ballast",
+        "volume_m3_100pct": 1022.7011042000003,
+        "mass_t_100pct": 1048.2686318050003,
+        "lcg_m": 149.01223788362728,
+        "vcg_m": 5.653205804749339,
+        "box_volume_m3": 1619.0518800000002,
+        "hull_intersection_ratio": 0.6316666666666667
+      },
+      {
+        "tank": "WING_BALLAST_4S",
+        "kind": "ballast",
+        "volume_m3_100pct": 1022.7011042000003,
+        "mass_t_100pct": 1048.2686318050003,
+        "lcg_m": 149.01223788362728,
+        "vcg_m": 5.653205804749339,
+        "box_volume_m3": 1619.0518800000002,
+        "hull_intersection_ratio": 0.6316666666666667
+      },
+      {
+        "tank": "FO_DB_1",
+        "kind": "fuel",
+        "volume_m3_100pct": 155.9136,
+        "mass_t_100pct": 154.354464,
+        "lcg_m": 11.373611781747947,
+        "vcg_m": 0.9581039755351684,
+        "box_volume_m3": 214.56,
+        "hull_intersection_ratio": 0.7266666666666667
+      },
+      {
+        "tank": "FO_DB_2",
+        "kind": "fuel",
+        "volume_m3_100pct": 249.10416000000004,
+        "mass_t_100pct": 246.61311840000005,
+        "lcg_m": 22.66129470964232,
+        "vcg_m": 0.9557995980476603,
+        "box_volume_m3": 257.47200000000004,
+        "hull_intersection_ratio": 0.9675
+      },
+      {
+        "tank": "FO_WING_P",
+        "kind": "fuel",
+        "volume_m3_100pct": 235.44041597999998,
+        "mass_t_100pct": 233.08601182019999,
+        "lcg_m": 22.695471607699066,
+        "vcg_m": 5.409028831562973,
+        "box_volume_m3": 857.4461279999999,
+        "hull_intersection_ratio": 0.27458333333333335
+      },
+      {
+        "tank": "FO_WING_S",
+        "kind": "fuel",
+        "volume_m3_100pct": 235.44041597999998,
+        "mass_t_100pct": 233.08601182019999,
+        "lcg_m": 22.695471607699066,
+        "vcg_m": 5.409028831562973,
+        "box_volume_m3": 857.4461279999999,
+        "hull_intersection_ratio": 0.27458333333333335
+      },
+      {
+        "tank": "MDO_TANK",
+        "kind": "fuel",
+        "volume_m3_100pct": 779.49648,
+        "mass_t_100pct": 701.546832,
+        "lcg_m": 21.5,
+        "vcg_m": 5.183,
+        "box_volume_m3": 779.49648,
+        "hull_intersection_ratio": 1.0
+      },
+      {
+        "tank": "FW_TANK",
+        "kind": "fresh",
+        "volume_m3_100pct": 864.663688,
+        "mass_t_100pct": 864.663688,
+        "lcg_m": 11.007907916703278,
+        "vcg_m": 5.18906510851419,
+        "box_volume_m3": 866.1072,
+        "hull_intersection_ratio": 0.9983333333333333
+      },
+      {
+        "tank": "NO5_FO_P",
+        "kind": "fuel",
+        "volume_m3_100pct": 36.495017,
+        "mass_t_100pct": 36.13006683,
+        "lcg_m": 29.003951026779184,
+        "vcg_m": 5.052826691380909,
+        "box_volume_m3": 40.587599999999995,
+        "hull_intersection_ratio": 0.8991666666666667
+      },
+      {
+        "tank": "NO5_FO_S",
+        "kind": "fuel",
+        "volume_m3_100pct": 36.495017,
+        "mass_t_100pct": 36.13006683,
+        "lcg_m": 29.003951026779184,
+        "vcg_m": 5.052826691380909,
+        "box_volume_m3": 40.587599999999995,
+        "hull_intersection_ratio": 0.8991666666666667
+      },
+      {
+        "tank": "FORE_PEAK",
+        "kind": "ballast",
+        "volume_m3_100pct": 677.9023199999999,
+        "mass_t_100pct": 694.8498779999999,
+        "lcg_m": 174.8506300963677,
+        "vcg_m": 4.5355070422535215,
+        "box_volume_m3": 1145.7504,
+        "hull_intersection_ratio": 0.5916666666666667
+      },
+      {
+        "tank": "AFT_PEAK",
+        "kind": "ballast",
+        "volume_m3_100pct": 334.1772,
+        "mass_t_100pct": 342.53163,
+        "lcg_m": 3.3798558897243103,
+        "vcg_m": 4.539092261904762,
+        "box_volume_m3": 596.745,
+        "hull_intersection_ratio": 0.56
+      }
+    ],
+    "crosscheck_rows": [
+      {
+        "quantity": "volume_m3",
+        "independent": 45590.324729,
+        "navaltoolbox": 45590.324088,
+        "delta": 0.00064,
+        "delta_pct": 0.0,
+        "near_zero": false
+      },
+      {
+        "quantity": "displacement_t",
+        "independent": 46730.082847,
+        "navaltoolbox": 46730.082191,
+        "delta": 0.000656,
+        "delta_pct": 0.0,
+        "near_zero": false
+      },
+      {
+        "quantity": "KB_m",
+        "independent": 5.325641,
+        "navaltoolbox": 5.325641,
+        "delta": 0.0,
+        "delta_pct": 0.0,
+        "near_zero": false
+      },
+      {
+        "quantity": "LCB_m_from_AP",
+        "independent": 90.912237,
+        "navaltoolbox": 90.912237,
+        "delta": -0.0,
+        "delta_pct": -0.0,
+        "near_zero": false
+      },
+      {
+        "quantity": "Awp_m2",
+        "independent": 4715.24394,
+        "navaltoolbox": 4715.243865,
+        "delta": 7.5e-05,
+        "delta_pct": 0.0,
+        "near_zero": false
+      },
+      {
+        "quantity": "LCF_m_from_AP",
+        "independent": 90.939817,
+        "navaltoolbox": 90.939817,
+        "delta": -0.0,
+        "delta_pct": -0.0,
+        "near_zero": false
+      },
+      {
+        "quantity": "BMt_m",
+        "independent": 6.743068,
+        "navaltoolbox": 6.743068,
+        "delta": 0.0,
+        "delta_pct": 0.0,
+        "near_zero": false
+      },
+      {
+        "quantity": "BMl_m",
+        "independent": 226.98983,
+        "navaltoolbox": 226.989832,
+        "delta": -2e-06,
+        "delta_pct": -0.0,
+        "near_zero": false
+      },
+      {
+        "quantity": "Cb",
+        "independent": 0.834479,
+        "navaltoolbox": 0.834474,
+        "delta": 5e-06,
+        "delta_pct": 0.0006,
+        "near_zero": false
+      },
+      {
+        "quantity": "wetted_surface_m2",
+        "independent": NaN,
+        "navaltoolbox": 8071.406040052027,
+        "delta": null,
+        "delta_pct": null
+      },
+      {
+        "quantity": "GZ@0deg_m",
+        "independent": -1e-05,
+        "navaltoolbox": 1e-05,
+        "delta": -2.1e-05,
+        "delta_pct": -200.4384,
+        "near_zero": true
+      },
+      {
+        "quantity": "GZ@5deg_m",
+        "independent": 0.596113,
+        "navaltoolbox": 0.597676,
+        "delta": -0.001563,
+        "delta_pct": -0.2615,
+        "near_zero": false
+      },
+      {
+        "quantity": "GZ@10deg_m",
+        "independent": 1.20291,
+        "navaltoolbox": 1.205525,
+        "delta": -0.002615,
+        "delta_pct": -0.2169,
+        "near_zero": false
+      },
+      {
+        "quantity": "GZ@15deg_m",
+        "independent": 1.823057,
+        "navaltoolbox": 1.8246,
+        "delta": -0.001542,
+        "delta_pct": -0.0845,
+        "near_zero": false
+      },
+      {
+        "quantity": "GZ@20deg_m",
+        "independent": 2.430945,
+        "navaltoolbox": 2.42906,
+        "delta": 0.001885,
+        "delta_pct": 0.0776,
+        "near_zero": false
+      },
+      {
+        "quantity": "GZ@25deg_m",
+        "independent": 2.969498,
+        "navaltoolbox": 2.967391,
+        "delta": 0.002106,
+        "delta_pct": 0.071,
+        "near_zero": false
+      },
+      {
+        "quantity": "GZ@30deg_m",
+        "independent": 3.401506,
+        "navaltoolbox": 3.395493,
+        "delta": 0.006014,
+        "delta_pct": 0.1771,
+        "near_zero": false
+      },
+      {
+        "quantity": "GZ@35deg_m",
+        "independent": 3.695449,
+        "navaltoolbox": 3.691481,
+        "delta": 0.003968,
+        "delta_pct": 0.1075,
+        "near_zero": false
+      },
+      {
+        "quantity": "GZ@40deg_m",
+        "independent": 3.890505,
+        "navaltoolbox": 3.887273,
+        "delta": 0.003232,
+        "delta_pct": 0.0831,
+        "near_zero": false
+      },
+      {
+        "quantity": "GZ@50deg_m",
+        "independent": 4.059726,
+        "navaltoolbox": 4.056305,
+        "delta": 0.003421,
+        "delta_pct": 0.0843,
+        "near_zero": false
+      },
+      {
+        "quantity": "GZ@60deg_m",
+        "independent": 3.953921,
+        "navaltoolbox": 3.953072,
+        "delta": 0.00085,
+        "delta_pct": 0.0215,
+        "near_zero": false
+      },
+      {
+        "quantity": "GZ@70deg_m",
+        "independent": 3.647059,
+        "navaltoolbox": 3.775188,
+        "delta": -0.128129,
+        "delta_pct": -3.394,
+        "near_zero": false
+      },
+      {
+        "quantity": "GZ@80deg_m",
+        "independent": 3.188678,
+        "navaltoolbox": 3.38013,
+        "delta": -0.191452,
+        "delta_pct": -5.664,
+        "near_zero": false
+      },
+      {
+        "quantity": "GZ@90deg_m",
+        "independent": 2.617076,
+        "navaltoolbox": 2.653692,
+        "delta": -0.036616,
+        "delta_pct": -1.3798,
+        "near_zero": false
+      }
+    ],
+    "worst_nonzero_delta_pct": 5.664
+  },
+  "powering": {
+    "speed_kn": 14.0,
+    "speed_m_s": 7.202216,
+    "froude_number_Lpp": 0.17142318175999086,
+    "reynolds": 48850428339.62969,
+    "Cf_ITTC57": 0.0009934244091575188,
+    "form_factor": {
+      "form_factor_1_plus_k": 1.45,
+      "source": "ESTIMATE",
+      "band": [
+        1.3,
+        1.6
+      ],
+      "uncertainty_on_R_fric_pct": 10.344827586206897,
+      "reason_not_computed": "the published regression was mis-transcribed and gave 1+k = 279.7; deleted rather than fitted to look right",
+      "action_required": "evaluate (1+k) from a transcribed-and-unit-tested Katsui or Holtrop implementation, or determine it from a model test per ITTC low-Froude-number extrapolation, or by CFD"
+    },
+    "wetted_surface_m2": 8071.406040052025,
+    "wetted_surface_source": "navaltoolbox mesh solver",
+    "R_fric_N": 309085.17731946084,
+    "R_appendage_N": 2905.0503619412675,
+    "R_wave_N": 46362.776597919124,
+    "R_wave": {
+      "method": "declared planning allowance, NOT a regression evaluation",
+      "source": "ESTIMATE",
+      "fraction_of_R_F": 0.15,
+      "uncertainty": "+/- 8 percentage points of R_F",
+      "action_required": "replace with a verified wave-resistance method, model test, or parent-ship correlation before any warranty is offered"
+    },
+    "R_total_calm_N": 358353.00427932123,
+    "roughness_allowance_frac": 0.04,
+    "sea_margin_frac": 0.15,
+    "R_total_with_margins_N": 428590.19311806816,
+    "EHP_calm_kW": 2580.935741068596,
+    "EHP_kW": 3086.79914631804,
+    "DHP_kW": 4060.087961671792,
+    "installed_MCR_kW": 4360.996736489573,
+    "propulsion": {
+      "wake_fraction_w": 0.3725,
+      "thrust_deduction_t": 0.204875,
+      "eta_hull": 1.2671314741035857,
+      "eta_R": 1.0,
+      "eta_0": 0.6,
+      "eta_D": 0.7602788844621514,
+      "source": {
+        "w": "ESTIMATE (Taylor-type)",
+        "t": "ESTIMATE (t = 0.55 w)",
+        "eta_R": "ESTIMATE",
+        "eta_0": "ESTIMATE"
+      },
+      "action_required": "replace with self-propulsion analysis or model test"
+    },
+    "validity": [
+      {
+        "quantity": "Cb",
+        "value": 0.845,
+        "band": [
+          0.45,
+          0.85
+        ],
+        "inside": true,
+        "margin_frac": 0.0125,
+        "severity": "ok"
+      },
+      {
+        "quantity": "Cm",
+        "value": 0.96087,
+        "band": [
+          0.7,
+          1.0
+        ],
+        "inside": true,
+        "margin_frac": 0.1304,
+        "severity": "ok"
+      },
+      {
+        "quantity": "Lpp/B",
+        "value": 6.04027,
+        "band": [
+          4.0,
+          10.0
+        ],
+        "inside": true,
+        "margin_frac": 0.34,
+        "severity": "ok"
+      },
+      {
+        "quantity": "B/T",
+        "value": 2.92582,
+        "band": [
+          1.5,
+          5.0
+        ],
+        "inside": true,
+        "margin_frac": 0.4074,
+        "severity": "ok"
+      },
+      {
+        "quantity": "Fn",
+        "value": 0.17142,
+        "band": [
+          0.05,
+          0.3
+        ],
+        "inside": true,
+        "margin_frac": 0.4857,
+        "severity": "ok"
+      },
+      {
+        "quantity": "LCB%Lpp",
+        "value": 50.52,
+        "band": [
+          48.0,
+          55.0
+        ],
+        "inside": true,
+        "margin_frac": 0.36,
+        "severity": "ok"
+      }
+    ],
+    "outside_band": [],
+    "confidence": "PRELIMINARY - wave resistance, wake, thrust deduction and propeller efficiency are declared estimates, not computed values",
+    "DWT_t": 37668.58284663717,
+    "lightship_t": 9061.5,
+    "cargo_t": 35500.0,
+    "fuel_capacity_t": 1640.9465717004,
+    "fresh_water_t": 864.663688,
+    "required_edi": {
+      "reference_line_gCO2_t_nm": 6.256342082018274,
+      "phase": 3,
+      "reduction_factor": 0.3,
+      "required_gCO2_t_nm": 4.379439457412792,
+      "formula": "961.0 * DWT^(-0.4778) * (1 - 0.3)"
+    },
+    "attained_edi": {
+      "attained_gCO2_t_nm": 6.341914021492461,
+      "P_ME_kW": 4360.996736489573,
+      "P_AE_kW": 359.02491841223934,
+      "V_ref_kn": 10.5,
+      "DWT_t": 37668.58284663717,
+      "main_fuel": "HFO",
+      "aux_fuel": "MDO",
+      "cf": [
+        3.206,
+        3.206
+      ],
+      "sfc": [
+        165.0,
+        175.0
+      ],
+      "corrections_applied": {
+        "f_i": 1.0,
+        "f_w": 1.0,
+        "ice_class": "none"
+      },
+      "note": "P_ME should be the MCR at which V_ref is measured; if the engine is derated, V_ref must be consistent with that derating"
+    },
+    "edi_margin": {
+      "attained": 6.341914021492461,
+      "required": 4.379439457412792,
+      "margin_pct": -44.81109016721116,
+      "compliant": false,
+      "sensitivity": "a 10% power underestimate moves attained EEDI by -10%; the declared ESTIMATE-class wave and propulsor terms are larger than that, so this margin is indicative only"
+    },
+    "range_nm": 29362.77275036145,
+    "consumption_t_per_day": 18.777451733830116,
+    "range_ok": true,
+    "edi_trade_study": {
+      "max_compliant_speed_kn_at_current_power": 5.9,
+      "speed_reduction_kn": 8.1,
+      "max_compliant_MCR_kW_at_contract_speed": 2911.0,
+      "power_reduction_pct": 33.2,
+      "options": [
+        "reduce contract speed (cheapest, costs schedule on the trade)",
+        "larger DWT for the same hull (raises the reference line: required EEDI ~ DWT^-0.4778)",
+        "energy-saving device / propeller boss cap fins (f_w credit where applicable)",
+        "shaft generator and waste-heat recovery to cut P_AE",
+        "dual-fuel or LNG (different C_f, and a different rule path entirely)"
+      ],
+      "caveat": "installed MCR itself rests on ESTIMATE-class wave resistance and propulsor efficiency; this trade study is directional only"
+    }
+  },
+  "structure_trim": {
+    "trim_deg": 0.6771406618685385,
+    "trim_m": 2.1273991764511053,
+    "waterline_draft_at_lcg_m": 10.116910660860528,
+    "converged": true,
+    "lcb_m": 93.59526312692297,
+    "lcg_m": 93.5952632845853
+  },
+  "structure": {
+    "rule_set": {
+      "name": "IACS CSR (Bulk Carriers & Oil Tankers), harmonised rule framework",
+      "edition": "MUST be confirmed against the current CSR release at submission",
+      "allowable_stress_MPa": 176.4,
+      "material": "Grade A, ReH = 235 MPa, k = 1.0"
+    },
+    "swbm": {
+      "M_sw_midship_kNm": -1834162.7735771185,
+      "max_abs_BM_kNm": 2143237.296924938,
+      "max_BM_location_m": 83.0,
+      "equilibrium_check": {
+        "sum_q_kN": 0.00017939497047336772,
+        "sum_q_tolerance_kN": 0.4582655669479743,
+        "sum_q_x_about_LCG_kNm": -9518.89959529345,
+        "SF_at_0_kN": 0.0,
+        "SF_at_L_kN": 0.0001793950606696626,
+        "BM_at_0_kNm": 0.0,
+        "BM_at_L_kNm": 9518.915051027509,
+        "equilibrium_satisfied": true
+      },
+      "method": "direct double integration of the load and buoyancy curves, free-free end conditions",
+      "self_test_error_pct": 0.2
+    },
+    "fe_crosscheck": {
+      "method_a": "direct double integration (rectangle rule, free-free)",
+      "method_b": "Euler-Bernoulli beam FE (consistent + nodal loads, projection)",
+      "n_nodes": 721,
+      "sign_calibration": 1.0,
+      "shape_correlation": 0.9999686121987699,
+      "max_abs_diff_kNm": 12973.890486757737,
+      "scale_peak_BM_kNm": 2143237.296924938,
+      "max_diff_pct_of_peak": 0.6053408320848253,
+      "tolerance_pct": 1.0,
+      "pass": true,
+      "load_equilibrium_residual_kN": -0.0001793950068531558,
+      "note": "two discretisations of the same ODE; disagreement localises quadrature, load-application or sign errors that neither method shows alone"
+    },
+    "wave_bm": {
+      "implemented": false,
+      "status": "OPEN",
+      "reason": "the vertical wave bending moment coefficient could not be transcribed reliably from memory; three attempts gave 1.52e8, 152 and 3.52e5 kNm against a parent-ship expectation of ~2e6 kNm for L = 180 m",
+      "gates_that_caught_it": {
+        "order_of_magnitude_gate": "C_w in [2.0, 10.75] and M_vw in the parent-ship band [8.0e5, 6.0e7] kNm; an order-of-magnitude gate is the only reliable net for unit and coefficient errors of 10^3",
+        "C_w_range": [
+          2.0,
+          10.75
+        ],
+        "M_vw_parent_band_kNm": [
+          800000.0,
+          60000000.0
+        ]
+      },
+      "action_required": "read the vertical wave bending moment formula, the wave coefficient and the hull-girder stress acceptance criterion from the CSR edition in force, or obtain M_vw from a class-approved tool (DNV Nauticus Hull, ABS hull-girder tools, LR), then re-run this module",
+      "context_only": {
+        "L": 180.0,
+        "B": 29.8,
+        "Cb": 0.845,
+        "D": 15.2,
+        "k_L": 1.0
+      }
+    },
+    "required_Z": {
+      "implemented": false,
+      "status": "OPEN",
+      "reason": "M_vw is OPEN, so the total hull-girder moment cannot be formed",
+      "M_sw_kNm": -1834162.7735771185
+    },
+    "midship_section": {
+      "area_m2": 4.299184,
+      "neutral_axis_m": 7.090823560936214,
+      "I_m4": 129.56055493846722,
+      "Z_deck_m3": 15.977029962542678,
+      "Z_bottom_m3": 18.271580702166155,
+      "Z_deck_cm3": 15977029.96254268,
+      "Z_bottom_cm3": 18271580.702166155,
+      "own_inertia_neglected": true,
+      "note": "longitudinal own second moments and the shear-lag reduction of wide flanges are neglected; CSR requires both and both reduce the modulus",
+      "items": [
+        {
+          "name": "strength deck stringer (both sides)",
+          "area_m2": 0.24,
+          "z_m": 15.1,
+          "thickness_mm": 20.0,
+          "note": "6 m wide deck stringer each side of the hatch"
+        },
+        {
+          "name": "deck longitudinals + attached plating",
+          "area_m2": 0.832,
+          "z_m": 14.75,
+          "thickness_mm": 20.0,
+          "note": "26 longitudinals, 1.6 m effective plating each"
+        },
+        {
+          "name": "side shell plating (both sides)",
+          "area_m2": 0.4752,
+          "z_m": 7.6,
+          "thickness_mm": 18.0,
+          "note": "bilge to deck less 2 m at each end"
+        },
+        {
+          "name": "side longitudinals",
+          "area_m2": 0.5184,
+          "z_m": 7.6,
+          "thickness_mm": 18.0,
+          "note": "24 side longitudinals"
+        },
+        {
+          "name": "hopper and topside sloped plating",
+          "area_m2": 0.648,
+          "z_m": 8.36,
+          "thickness_mm": 18.0,
+          "note": "four sloped strakes"
+        },
+        {
+          "name": "bottom longitudinals + attached plating",
+          "area_m2": 1.056,
+          "z_m": 0.45,
+          "thickness_mm": 22.0,
+          "note": "30 bottom longitudinals"
+        },
+        {
+          "name": "bottom girder and floors",
+          "area_m2": 0.0792,
+          "z_m": 0.8,
+          "thickness_mm": 22.0,
+          "note": "centre girder plus two side girders"
+        },
+        {
+          "name": "inner bottom plating",
+          "area_m2": 0.4196,
+          "z_m": 1.55,
+          "thickness_mm": 16.0,
+          "note": "inner bottom at 1.55 m"
+        },
+        {
+          "name": "hatch coamings",
+          "area_m2": 0.0308,
+          "z_m": 14.0,
+          "thickness_mm": 14.0,
+          "note": "counted at reduced effectiveness"
+        }
+      ],
+      "provenance": "ESTIMATE - every plate thickness and longitudinal spacing is a declared preliminary value, not a rule-derived scantling"
+    },
+    "check": {
+      "passed": null,
+      "status": "OPEN",
+      "reason": "M_vw is OPEN, so the total hull-girder moment cannot be formed",
+      "Z_deck_cm3": 15977029.96254268,
+      "Z_bottom_cm3": 18271580.702166155,
+      "parent_band_cm3": [
+        14000000.0,
+        20000000.0
+      ],
+      "within_parent_band": true,
+      "parent_band_note": "a Handysize bulk carrier of this length typically has a net deck section modulus of 1.4e7 - 2.0e7 cm3"
+    }
+  },
+  "exploration": {
+    "selected": "C-full-ends",
+    "best_composite": 88.50593607286274,
+    "gate_passed": true,
+    "threshold": 70.0,
+    "subscore_floor": 55.0,
+    "reason": "selected: clears the composite threshold with every sub-score above its floor",
+    "why_the_losers_lost": [
+      {
+        "tag": "A-baseline",
+        "composite": 88.51,
+        "deficit_vs_best": 0.0,
+        "worst_axis": "constructability",
+        "worst_score": 64.0
+      },
+      {
+        "tag": "B-long-pmb",
+        "composite": 88.51,
+        "deficit_vs_best": 0.0,
+        "worst_axis": "constructability",
+        "worst_score": 64.0
+      }
+    ],
+    "candidates": [
+      {
+        "tag": "A-baseline",
+        "composite": 88.51,
+        "passed": true,
+        "scores": {
+          "capacity": 90.0,
+          "steel_intensity": 100.0,
+          "power_intensity": 100.0,
+          "constructability": 64.02
+        },
+        "principal": {
+          "Lpp": 180.0,
+          "B": 29.8,
+          "T": 10.5,
+          "run_frac": 0.22,
+          "ent_frac": 0.18,
+          "fullness_exponent": 0.8611
+        },
+        "metrics": {
+          "Cb": 0.845,
+          "Cm": 0.9609,
+          "Cp": 0.8794,
+          "LCB_pct": 50.5228,
+          "displaced_volume_m3": 47592.0905,
+          "wetted_surface_proxy_m2": 60922.4289,
+          "length_displacement_ratio": 4.967,
+          "not_scored_axes": [
+            "fatigue_life",
+            "constructability_from_yard_limits"
+          ]
+        },
+        "displacement_t": 48781.9,
+        "dwt_t": 39720.4,
+        "lightship_t": 9061.5,
+        "MCR_kW": 32918.8,
+        "hull_steel_t": 7068.0,
+        "reasons": [
+          "capacity = 90.0",
+          "steel_intensity = 100.0",
+          "power_intensity = 100.0",
+          "constructability = 64.0"
+        ]
+      },
+      {
+        "tag": "B-long-pmb",
+        "composite": 88.51,
+        "passed": true,
+        "scores": {
+          "capacity": 90.0,
+          "steel_intensity": 100.0,
+          "power_intensity": 100.0,
+          "constructability": 64.02
+        },
+        "principal": {
+          "Lpp": 180.0,
+          "B": 29.8,
+          "T": 10.5,
+          "run_frac": 0.245,
+          "ent_frac": 0.205,
+          "fullness_exponent": 0.7297
+        },
+        "metrics": {
+          "Cb": 0.845,
+          "Cm": 0.9609,
+          "Cp": 0.8794,
+          "LCB_pct": 50.4495,
+          "displaced_volume_m3": 47592.0901,
+          "wetted_surface_proxy_m2": 60922.4285,
+          "length_displacement_ratio": 4.967,
+          "not_scored_axes": [
+            "fatigue_life",
+            "constructability_from_yard_limits"
+          ]
+        },
+        "displacement_t": 48781.9,
+        "dwt_t": 39675.1,
+        "lightship_t": 9106.8,
+        "MCR_kW": 32918.8,
+        "hull_steel_t": 7103.3,
+        "reasons": [
+          "capacity = 90.0",
+          "steel_intensity = 100.0",
+          "power_intensity = 100.0",
+          "constructability = 64.0"
+        ]
+      },
+      {
+        "tag": "C-full-ends",
+        "composite": 88.51,
+        "passed": true,
+        "scores": {
+          "capacity": 90.0,
+          "steel_intensity": 100.0,
+          "power_intensity": 100.0,
+          "constructability": 64.02
+        },
+        "principal": {
+          "Lpp": 180.0,
+          "B": 29.8,
+          "T": 10.5,
+          "run_frac": 0.19,
+          "ent_frac": 0.16,
+          "fullness_exponent": 1.0496
+        },
+        "metrics": {
+          "Cb": 0.845,
+          "Cm": 0.9609,
+          "Cp": 0.8794,
+          "LCB_pct": 50.4626,
+          "displaced_volume_m3": 47592.0894,
+          "wetted_surface_proxy_m2": 60922.428,
+          "length_displacement_ratio": 4.967,
+          "not_scored_axes": [
+            "fatigue_life",
+            "constructability_from_yard_limits"
+          ]
+        },
+        "displacement_t": 48781.9,
+        "dwt_t": 39765.7,
+        "lightship_t": 9016.2,
+        "MCR_kW": 32918.8,
+        "hull_steel_t": 7032.6,
+        "reasons": [
+          "capacity = 90.0",
+          "steel_intensity = 100.0",
+          "power_intensity = 100.0",
+          "constructability = 64.0"
+        ]
+      }
+    ],
+    "config": {
+      "composite_threshold": 70.0,
+      "subscore_floor": 55.0,
+      "axes": [
+        "capacity",
+        "steel_intensity",
+        "power_intensity",
+        "constructability"
+      ],
+      "note": "calibration is provisional: piecewise-linear anchors should be fitted to real ships of this type before the gate is used to reject a design"
+    },
+    "caveat": "capacity, steel intensity and power intensity use proxy measures (section-area scaling and a crude wetted-surface estimate); fatigue life and yard-limit constructability are NOT SCORED. The ranking is directional until those are real computations."
+  },
+  "steel_takeoff": {
+    "hull_steel_t": 7067.97,
+    "outfitting_t": 1235.9886,
+    "machinery_t": 757.5414,
+    "lightship_t": 9061.5,
+    "steel_fraction_of_lightship": 0.78,
+    "steel_density_t_m3": 7.85,
+    "implied_mean_structural_area_m2": 5.002101910828026,
+    "midship_girder_area_m2": 4.299184,
+    "midship_to_mean_ratio": 0.8594754918314593,
+    "provenance": {
+      "steel_fraction": "ESTIMATE (bulk carriers 0.72-0.82)",
+      "outfitting_split": "ESTIMATE"
+    },
+    "accuracy": "class 5 order-of-magnitude; +/-20% until calibrated on a parent ship",
+    "action_required": "calibrate the steel fraction against a built sister ship before quoting cost, and build the quantity from a real structural model at contract design"
+  },
+  "reviewer_config": {
+    "composite_threshold": 70.0,
+    "subscore_floor": 55.0,
+    "axes": [
+      "capacity",
+      "steel_intensity",
+      "power_intensity",
+      "constructability"
+    ],
+    "note": "calibration is provisional: piecewise-linear anchors should be fitted to real ships of this type before the gate is used to reject a design"
+  },
+  "traceability": [
+    {
+      "id": "R-01",
+      "text": "cargo capacity >= 35,500 t homogeneous iron ore",
+      "verify": "capacities plan + loading condition",
+      "status": "PASS",
+      "evidence": "cargo 35,500 t vs target 35,500 t",
+      "owner": "naval architect",
+      "action_required": "none - satisfied"
+    },
+    {
+      "id": "R-02",
+      "text": "service speed 14.0 kn at scantling draft, 15% sea margin",
+      "verify": "speed-power prediction",
+      "status": "OPEN",
+      "evidence": "MCR 4,361 kW at 14.0 kn; confidence PRELIMINARY (wave resistance and propulsor efficiency are declared estimates)",
+      "owner": "naval architect + chief engineer",
+      "action_required": "replace the ESTIMATE-class wave resistance and propulsor efficiency with a verified method, then re-run"
+    },
+    {
+      "id": "R-03",
+      "text": "intact stability per 2008 IS Code in all approved conditions",
+      "verify": "stability booklet",
+      "status": "PASS",
+      "evidence": "6/6 criteria pass; weather criterion OPEN",
+      "owner": "stability engineer",
+      "action_required": "none - satisfied"
+    },
+    {
+      "id": "R-04",
+      "text": "hull girder and local scantlings per CSR",
+      "verify": "structural calculation",
+      "status": "OPEN",
+      "evidence": "Z_deck = 15,977,030 cm3 (within parent band: True); M_sw = -1,834,163 kNm by direct integration; M_vw OPEN - M_vw is OPEN, so the total hull-girder moment cannot be formed",
+      "owner": "structural engineer",
+      "action_required": "obtain M_vw from the CSR text in force or a class-approved tool, then close the girder check"
+    },
+    {
+      "id": "R-05",
+      "text": "EEDI Phase 3 compliance",
+      "verify": "EEDI technical file",
+      "status": "FAIL",
+      "evidence": "attained 6.342 vs required 4.379",
+      "owner": "chief engineer + owner",
+      "action_required": "choose a remedy from the EEDI trade study and obtain an owner decision on speed vs capacity vs fuel"
+    },
+    {
+      "id": "R-06",
+      "text": "LOA <= 190 m, B <= 29.8 m, T <= 10.5 m",
+      "verify": "principal dimensions",
+      "status": "PASS",
+      "evidence": "LOA 190.0 / B 29.8 / T 10.5",
+      "owner": "naval architect",
+      "action_required": "none - satisfied"
+    },
+    {
+      "id": "R-07",
+      "text": "range 12,000 nm without refuelling",
+      "verify": "fuel capacity vs consumption",
+      "status": "PASS",
+      "evidence": "range 29,363 nm vs 12,000 nm",
+      "owner": "chief engineer",
+      "action_required": "none - satisfied"
+    }
+  ],
+  "open_items_consolidated": [
+    {
+      "id": "R-02",
+      "status": "OPEN",
+      "owner": "naval architect + chief engineer",
+      "action_required": "replace the ESTIMATE-class wave resistance and propulsor efficiency with a verified method, then re-run",
+      "evidence": "MCR 4,361 kW at 14.0 kn; confidence PRELIMINARY (wave resistance and propulsor efficiency are declared estimates)"
+    },
+    {
+      "id": "R-04",
+      "status": "OPEN",
+      "owner": "structural engineer",
+      "action_required": "obtain M_vw from the CSR text in force or a class-approved tool, then close the girder check",
+      "evidence": "Z_deck = 15,977,030 cm3 (within parent band: True); M_sw = -1,834,163 kNm by direct integration; M_vw OPEN - M_vw is OPEN, so the total hull-girder moment cannot be formed"
+    },
+    {
+      "id": "R-05",
+      "status": "FAIL",
+      "owner": "chief engineer + owner",
+      "action_required": "choose a remedy from the EEDI trade study and obtain an owner decision on speed vs capacity vs fuel",
+      "evidence": "attained 6.342 vs required 4.379"
+    },
+    {
+      "id": "IS-2.2.3",
+      "status": "OPEN",
+      "owner": "stability engineer + class",
+      "action_required": "run the weather criterion in a class-approved stability tool (NAPA, GHS, Maxsurf Stability, DNV Nauticus Stability) and record the clause-by-clause output, or encode the IS Code tables from a licensed copy of the Code",
+      "evidence": "requires the 2008 IS Code tabulated wave-slope coefficients X1, X2, the roll-radius coefficient k and the standard roll-period formula; these must be read from the Code, not reproduced from memory"
+    },
+    {
+      "id": "M_vw",
+      "status": "OPEN",
+      "owner": "structural engineer + class",
+      "action_required": "read the vertical wave bending moment formula, the wave coefficient and the hull-girder stress acceptance criterion from the CSR edition in force, or obtain M_vw from a class-approved tool (DNV Nauticus Hull, ABS hull-girder tools, LR), then re-run this module",
+      "evidence": "the vertical wave bending moment coefficient could not be transcribed reliably from memory; three attempts gave 1.52e8, 152 and 3.52e5 kNm against a parent-ship expectation of ~2e6 kNm for L = 180 m"
+    }
+  ],
+  "drawings": {
+    "sheets": {
+      "lines_plan": "lines_plan.dxf",
+      "hydrostatic_curves": "hydrostatic_curves.dxf",
+      "gz_curves": "gz_curves.dxf",
+      "midship_section": "midship_section.dxf"
+    },
+    "hashes": {
+      "lines_plan": "64ed52a162bd4dce",
+      "hydrostatic_curves": "099775a06f4bf37c",
+      "gz_curves": "0a36415fb779c0f9",
+      "midship_section": "2da5b2cdcb6399b7"
+    },
+    "verification": {
+      "lines_plan": [
+        {
+          "check": "keel present",
+          "pass": true,
+          "detail": "1 keel polylines"
+        },
+        {
+          "check": "keel x-extent == Lpp",
+          "pass": true,
+          "detail": "measured 180.000000 vs 180.0"
+        },
+        {
+          "check": "station curve count",
+          "pass": true,
+          "detail": "21 vs 21"
+        },
+        {
+          "check": "every waterline drawn (2 curves per WL layer)",
+          "pass": true,
+          "detail": "7 WLs x 2 curves"
+        },
+        {
+          "check": "WL max half-breadth vs model (<=1e-3 m)",
+          "pass": true,
+          "detail": "WL2 z=3.50: measured 14.900000 vs model 14.900000"
+        },
+        {
+          "check": "profile design waterline present",
+          "pass": true,
+          "detail": "1 HULL_WL lines"
+        },
+        {
+          "check": "geometry hash in title text",
+          "pass": true,
+          "detail": "hash string search in TEXT entities"
+        },
+        {
+          "check": "file re-opens",
+          "pass": true,
+          "detail": "103 entities"
+        },
+        {
+          "check": "geometry hash present",
+          "pass": true,
+          "detail": "searched for sha256:ee52e1a8e84a28f2"
+        },
+        {
+          "check": "not-to-scale warning present",
+          "pass": true,
+          "detail": "title/annotation text"
+        }
+      ],
+      "hydrostatic_curves": [
+        {
+          "check": "file re-opens",
+          "pass": true,
+          "detail": "37 entities"
+        },
+        {
+          "check": "geometry hash present",
+          "pass": true,
+          "detail": "searched for sha256:ee52e1a8e84a28f2"
+        },
+        {
+          "check": "not-to-scale warning present",
+          "pass": true,
+          "detail": "title/annotation text"
+        }
+      ],
+      "gz_curves": [
+        {
+          "check": "file re-opens",
+          "pass": true,
+          "detail": "27 entities"
+        },
+        {
+          "check": "geometry hash present",
+          "pass": true,
+          "detail": "searched for sha256:ee52e1a8e84a28f2"
+        },
+        {
+          "check": "not-to-scale warning present",
+          "pass": true,
+          "detail": "title/annotation text"
+        }
+      ],
+      "midship_section": [
+        {
+          "check": "file re-opens",
+          "pass": true,
+          "detail": "24 entities"
+        },
+        {
+          "check": "geometry hash present",
+          "pass": true,
+          "detail": "searched for sha256:ee52e1a8e84a28f2"
+        },
+        {
+          "check": "not-to-scale warning present",
+          "pass": true,
+          "detail": "title/annotation text"
+        }
+      ]
+    },
+    "all_checks_pass": true,
+    "meta": {
+      "lines_plan": {
+        "stations": 21,
+        "waterlines": 7,
+        "zwl": [
+          0.0,
+          1.75,
+          3.5,
+          5.25,
+          7.0,
+          8.75,
+          10.5
+        ],
+        "xs": [
+          0.0,
+          9.0,
+          18.0,
+          27.0,
+          36.0,
+          45.0,
+          54.0,
+          63.0,
+          72.0,
+          81.0,
+          90.0,
+          99.0,
+          108.0,
+          117.0,
+          126.0,
+          135.0,
+          144.0,
+          153.0,
+          162.0,
+          171.0,
+          180.0
+        ],
+        "hb_origin_y": -45.0,
+        "body_origin_x": 240.0
+      },
+      "hydrostatic_series_keys": [
+        "volume_m3",
+        "KB_m",
+        "BMt_m",
+        "Awp_m2",
+        "TPC_t_cm",
+        "drafts",
+        "chart_x_offsets"
+      ],
+      "gz_points": 14,
+      "midship_items": 9
+    }
+  },
+  "finalization": {
+    "status": "NOT_FINALIZED",
+    "blockers": [
+      "R-05"
+    ],
+    "open_items": [
+      "R-02",
+      "R-04",
+      "IS-2.2.3",
+      "M_vw"
+    ],
+    "accepted_by": null,
+    "policy": "error-fix-loop: nothing is finalized while any error or OPEN item remains; only a human gate may move FROZEN_PENDING_HUMAN -> RELEASED, and a RELEASED artefact whose input hashes changed reverts to NOT_FINALIZED automatically",
+    "gates_green": {
+      "ground_truth": true,
+      "two_solver_crosscheck_pct": 5.664,
+      "equilibrium_identities": true,
+      "fe_bm_crosscheck_pct": 0.6053408320848253,
+      "drawings_readback": true,
+      "is_code_evaluated_pass": true
+    }
+  },
+  "run_log": [
+    {
+      "t": "20:10:17",
+      "stage": "S0-brief",
+      "msg": "7 requirements frozen",
+      "file": "brief.json sha256:3e215c69b1dfca00"
+    },
+    {
+      "t": "20:10:20",
+      "stage": "S1-S2-hull",
+      "msg": "Cb=0.8450 Cm=0.9609 Cp=0.8794 LCB=50.52%  mesh closed=True (522 degenerate triangles removed)"
+    },
+    {
+      "t": "20:10:25",
+      "stage": "S3-loading",
+      "msg": "22 tanks, 5 loading conditions"
+    },
+    {
+      "t": "20:10:25",
+      "stage": "S3-hydrostatics",
+      "msg": "draft=10.1852 m KB=5.3256 BMt=6.7431 GM_solid=6.8090 FSC=0.3019 GM_fluid=6.5072"
+    },
+    {
+      "t": "20:10:49",
+      "stage": "S3-crosscheck",
+      "msg": "two independent solvers agree; worst non-zero delta = 5.6640%"
+    },
+    {
+      "t": "20:10:49",
+      "stage": "S3-intact",
+      "msg": "all evaluated IS Code criteria passed = True; open items = ['IS-2.2.3']"
+    },
+    {
+      "t": "20:10:49",
+      "stage": "S4-powering",
+      "msg": "Fn=0.1714 Rt_calm=358,353 N Rt_sea=428,590 N EHP=3,087 kW MCR=4,361 kW"
+    },
+    {
+      "t": "20:10:49",
+      "stage": "S4-EEDI",
+      "msg": "DWT=37,669 t  required=4.3794 attained=6.3419  margin=-44.8%  COMPLIANT=False"
+    },
+    {
+      "t": "20:10:49",
+      "stage": "S4-range",
+      "msg": "consumption=18.78 t/day, fuel=1,641 t, range=29,363 nm (target 12000 nm) -> OK"
+    },
+    {
+      "t": "20:10:49",
+      "stage": "S4-EEDI-trade",
+      "msg": "compliant at <= 5.9 kn (-8.1 kn) or MCR <= 2,911 kW (-33.2%)"
+    },
+    {
+      "t": "20:10:50",
+      "stage": "S5-structure",
+      "msg": "M_sw(midship)=-1,834,163 kNm (direct integration, max |BM| = 2,143,237 kNm at x=83.0 m); M_vw=OPEN; Z_deck=15,977,030 cm3; girder check -> OPEN"
+    },
+    {
+      "t": "20:10:51",
+      "stage": "S5-fe-crosscheck",
+      "msg": "beam FE vs integrator: corr=0.99997, max diff=0.605% of peak (2,143,237 kNm) -> PASS"
+    },
+    {
+      "t": "20:10:54",
+      "stage": "S6-explore",
+      "msg": "3 candidates scored; selected=C-full-ends; best composite=88.50593607286274; gate_passed=True"
+    },
+    {
+      "t": "20:10:54",
+      "stage": "S6-steel",
+      "msg": "hull steel take-off 7,068 t (lightship 9,062 t -> steel fraction 78.0%)"
+    },
+    {
+      "t": "20:10:54",
+      "stage": "S7-traceability",
+      "msg": "4 PASS, 1 FAIL ['R-05'], 2 OPEN ['R-02', 'R-04']"
+    },
+    {
+      "t": "20:10:57",
+      "stage": "S9-drawings",
+      "msg": "4 sheets generated and read-back verified: 19 checks, all_pass=True"
+    },
+    {
+      "t": "20:10:57",
+      "stage": "S9-finalization",
+      "msg": "status=NOT_FINALIZED blockers=['R-05'] open=['R-02', 'R-04', 'IS-2.2.3', 'M_vw']"
+    }
+  ]
+}

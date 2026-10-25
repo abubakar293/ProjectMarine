@@ -1,0 +1,171 @@
+{
+  "sheets": {
+    "lines_plan": "lines_plan.dxf",
+    "hydrostatic_curves": "hydrostatic_curves.dxf",
+    "gz_curves": "gz_curves.dxf",
+    "midship_section": "midship_section.dxf"
+  },
+  "hashes": {
+    "lines_plan": "64ed52a162bd4dce",
+    "hydrostatic_curves": "099775a06f4bf37c",
+    "gz_curves": "0a36415fb779c0f9",
+    "midship_section": "2da5b2cdcb6399b7"
+  },
+  "verification": {
+    "lines_plan": [
+      {
+        "check": "keel present",
+        "pass": true,
+        "detail": "1 keel polylines"
+      },
+      {
+        "check": "keel x-extent == Lpp",
+        "pass": true,
+        "detail": "measured 180.000000 vs 180.0"
+      },
+      {
+        "check": "station curve count",
+        "pass": true,
+        "detail": "21 vs 21"
+      },
+      {
+        "check": "every waterline drawn (2 curves per WL layer)",
+        "pass": true,
+        "detail": "7 WLs x 2 curves"
+      },
+      {
+        "check": "WL max half-breadth vs model (<=1e-3 m)",
+        "pass": true,
+        "detail": "WL2 z=3.50: measured 14.900000 vs model 14.900000"
+      },
+      {
+        "check": "profile design waterline present",
+        "pass": true,
+        "detail": "1 HULL_WL lines"
+      },
+      {
+        "check": "geometry hash in title text",
+        "pass": true,
+        "detail": "hash string search in TEXT entities"
+      },
+      {
+        "check": "file re-opens",
+        "pass": true,
+        "detail": "103 entities"
+      },
+      {
+        "check": "geometry hash present",
+        "pass": true,
+        "detail": "searched for sha256:ee52e1a8e84a28f2"
+      },
+      {
+        "check": "not-to-scale warning present",
+        "pass": true,
+        "detail": "title/annotation text"
+      }
+    ],
+    "hydrostatic_curves": [
+      {
+        "check": "file re-opens",
+        "pass": true,
+        "detail": "37 entities"
+      },
+      {
+        "check": "geometry hash present",
+        "pass": true,
+        "detail": "searched for sha256:ee52e1a8e84a28f2"
+      },
+      {
+        "check": "not-to-scale warning present",
+        "pass": true,
+        "detail": "title/annotation text"
+      }
+    ],
+    "gz_curves": [
+      {
+        "check": "file re-opens",
+        "pass": true,
+        "detail": "27 entities"
+      },
+      {
+        "check": "geometry hash present",
+        "pass": true,
+        "detail": "searched for sha256:ee52e1a8e84a28f2"
+      },
+      {
+        "check": "not-to-scale warning present",
+        "pass": true,
+        "detail": "title/annotation text"
+      }
+    ],
+    "midship_section": [
+      {
+        "check": "file re-opens",
+        "pass": true,
+        "detail": "24 entities"
+      },
+      {
+        "check": "geometry hash present",
+        "pass": true,
+        "detail": "searched for sha256:ee52e1a8e84a28f2"
+      },
+      {
+        "check": "not-to-scale warning present",
+        "pass": true,
+        "detail": "title/annotation text"
+      }
+    ]
+  },
+  "all_checks_pass": true,
+  "meta": {
+    "lines_plan": {
+      "stations": 21,
+      "waterlines": 7,
+      "zwl": [
+        0.0,
+        1.75,
+        3.5,
+        5.25,
+        7.0,
+        8.75,
+        10.5
+      ],
+      "xs": [
+        0.0,
+        9.0,
+        18.0,
+        27.0,
+        36.0,
+        45.0,
+        54.0,
+        63.0,
+        72.0,
+        81.0,
+        90.0,
+        99.0,
+        108.0,
+        117.0,
+        126.0,
+        135.0,
+        144.0,
+        153.0,
+        162.0,
+        171.0,
+        180.0
+      ],
+      "hb_origin_y": -45.0,
+      "body_origin_x": 240.0
+    },
+    "hydrostatic_series_keys": [
+      "volume_m3",
+      "KB_m",
+      "BMt_m",
+      "Awp_m2",
+      "TPC_t_cm",
+      "drafts",
+      "chart_x_offsets"
+    ],
+    "gz_points": 14,
+    "midship_items": 9
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "draft_m": 10.185175646021527,
+  "displacement_t": 46730.08284663717,
+  "cog": [
+    93.5952632845853,
+    0.0,
+    5.259680872618325
+  ],
+  "heels": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90
+  ],
+  "rows": [
+    {
+      "quantity": "volume_m3",
+      "independent": 45590.324729,
+      "navaltoolbox": 45590.324088,
+      "delta": 0.00064,
+      "delta_pct": 0.0,
+      "near_zero": false
+    },
+    {
+      "quantity": "displacement_t",
+      "independent": 46730.082847,
+      "navaltoolbox": 46730.082191,
+      "delta": 0.000656,
+      "delta_pct": 0.0,
+      "near_zero": false
+    },
+    {
+      "quantity": "KB_m",
+      "independent": 5.325641,
+      "navaltoolbox": 5.325641,
+      "delta": 0.0,
+      "delta_pct": 0.0,
+      "near_zero": false
+    },
+    {
+      "quantity": "LCB_m_from_AP",
+      "independent": 90.912237,
+      "navaltoolbox": 90.912237,
+      "delta": -0.0,
+      "delta_pct": -0.0,
+      "near_zero": false
+    },
+    {
+      "quantity": "Awp_m2",
+      "independent": 4715.24394,
+      "navaltoolbox": 4715.243865,
+      "delta": 7.5e-05,
+      "delta_pct": 0.0,
+      "near_zero": false
+    },
+    {
+      "quantity": "LCF_m_from_AP",
+      "independent": 90.939817,
+      "navaltoolbox": 90.939817,
+      "delta": -0.0,
+      "delta_pct": -0.0,
+      "near_zero": false
+    },
+    {
+      "quantity": "BMt_m",
+      "independent": 6.743068,
+      "navaltoolbox": 6.743068,
+      "delta": 0.0,
+      "delta_pct": 0.0,
+      "near_zero": false
+    },
+    {
+      "quantity": "BMl_m",
+      "independent": 226.98983,
+      "navaltoolbox": 226.989832,
+      "delta": -2e-06,
+      "delta_pct": -0.0,
+      "near_zero": false
+    },
+    {
+      "quantity": "Cb",
+      "independent": 0.834479,
+      "navaltoolbox": 0.834474,
+      "delta": 5e-06,
+      "delta_pct": 0.0006,
+      "near_zero": false
+    },
+    {
+      "quantity": "wetted_surface_m2",
+      "independent": NaN,
+      "navaltoolbox": 8071.406040052027,
+      "delta": null,
+      "delta_pct": null
+    },
+    {
+      "quantity": "GZ@0deg_m",
+      "independent": -1e-05,
+      "navaltoolbox": 1e-05,
+      "delta": -2.1e-05,
+      "delta_pct": -200.4384,
+      "near_zero": true
+    },
+    {
+      "quantity": "GZ@5deg_m",
+      "independent": 0.596113,
+      "navaltoolbox": 0.597676,
+      "delta": -0.001563,
+      "delta_pct": -0.2615,
+      "near_zero": false
+    },
+    {
+      "quantity": "GZ@10deg_m",
+      "independent": 1.20291,
+      "navaltoolbox": 1.205525,
+      "delta": -0.002615,
+      "delta_pct": -0.2169,
+      "near_zero": false
+    },
+    {
+      "quantity": "GZ@15deg_m",
+      "independent": 1.823057,
+      "navaltoolbox": 1.8246,
+      "delta": -0.001542,
+      "delta_pct": -0.0845,
+      "near_zero": false
+    },
+    {
+      "quantity": "GZ@20deg_m",
+      "independent": 2.430945,
+      "navaltoolbox": 2.42906,
+      "delta": 0.001885,
+      "delta_pct": 0.0776,
+      "near_zero": false
+    },
+    {
+      "quantity": "GZ@25deg_m",
+      "independent": 2.969498,
+      "navaltoolbox": 2.967391,
+      "delta": 0.002106,
+      "delta_pct": 0.071,
+      "near_zero": false
+    },
+    {
+      "quantity": "GZ@30deg_m",
+      "independent": 3.401506,
+      "navaltoolbox": 3.395493,
+      "delta": 0.006014,
+      "delta_pct": 0.1771,
+      "near_zero": false
+    },
+    {
+      "quantity": "GZ@35deg_m",
+      "independent": 3.695449,
+      "navaltoolbox": 3.691481,
+      "delta": 0.003968,
+      "delta_pct": 0.1075,
+      "near_zero": false
+    },
+    {
+      "quantity": "GZ@40deg_m",
+      "independent": 3.890505,
+      "navaltoolbox": 3.887273,
+      "delta": 0.003232,
+      "delta_pct": 0.0831,
+      "near_zero": false
+    },
+    {
+      "quantity": "GZ@50deg_m",
+      "independent": 4.059726,
+      "navaltoolbox": 4.056305,
+      "delta": 0.003421,
+      "delta_pct": 0.0843,
+      "near_zero": false
+    },
+    {
+      "quantity": "GZ@60deg_m",
+      "independent": 3.953921,
+      "navaltoolbox": 3.953072,
+      "delta": 0.00085,
+      "delta_pct": 0.0215,
+      "near_zero": false
+    },
+    {
+      "quantity": "GZ@70deg_m",
+      "independent": 3.647059,
+      "navaltoolbox": 3.775188,
+      "delta": -0.128129,
+      "delta_pct": -3.394,
+      "near_zero": false
+    },
+    {
+      "quantity": "GZ@80deg_m",
+      "independent": 3.188678,
+      "navaltoolbox": 3.38013,
+      "delta": -0.191452,
+      "delta_pct": -5.664,
+      "near_zero": false
+    },
+    {
+      "quantity": "GZ@90deg_m",
+      "independent": 2.617076,
+      "navaltoolbox": 2.653692,
+      "delta": -0.036616,
+      "delta_pct": -1.3798,
+      "near_zero": false
+    }
+  ],
+  "mesh_report": {
+    "triangles": 28438,
+    "degenerate_triangles": 0,
+    "non_degenerate_triangles": 28438,
+    "unique_edges": 42657,
+    "edge_multiplicity_hist": {
+      "2": 42657
+    },
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "closed": true,
+    "enclosed_volume_m3": 69826.22523165192
+  },
+  "worst_nonzero_delta_pct": 5.664
+}

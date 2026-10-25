@@ -1,0 +1,982 @@
+{
+  "agents": [
+    {
+      "id": "RR01",
+      "name": "readme-hero",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR02",
+      "name": "readme-badges",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR03",
+      "name": "readme-links",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR04",
+      "name": "honest-scope",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR05",
+      "name": "claims-match-artefacts",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR06",
+      "name": "install-coverage",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR07",
+      "name": "license-consistency",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR08",
+      "name": "security-policy",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR09",
+      "name": "contributing-bar",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR10",
+      "name": "changelog",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR11",
+      "name": "marketplace-manifest",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR12",
+      "name": "ci-workflow",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.02
+    },
+    {
+      "id": "RR13",
+      "name": "ci-covers-verification",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR14",
+      "name": "issue-templates",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR15",
+      "name": "pr-template",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR16",
+      "name": "maintainers",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR17",
+      "name": "spec-lint-clean",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.04
+    },
+    {
+      "id": "RR18",
+      "name": "skill-count-claim",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR19",
+      "name": "stage-coverage",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR20",
+      "name": "skills-in-readme",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR21",
+      "name": "gates-section",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR22",
+      "name": "prohibitions-section",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR23",
+      "name": "escalation-path",
+      "status": "ok",
+      "findings": 1,
+      "worst": "MAJOR",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR24",
+      "name": "orchestrator-wiring",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR25",
+      "name": "war-stories",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR26",
+      "name": "no-uncited-rule-numbers",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.01
+    },
+    {
+      "id": "RR27",
+      "name": "refusal-language",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR28",
+      "name": "docs-skill-refs",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR29",
+      "name": "py-compile",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.07
+    },
+    {
+      "id": "RR30",
+      "name": "ground-truth-exact",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.16
+    },
+    {
+      "id": "RR31",
+      "name": "structure-selftests",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.12
+    },
+    {
+      "id": "RR32",
+      "name": "powering-selftests",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.05
+    },
+    {
+      "id": "RR33",
+      "name": "design-record-present",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR34",
+      "name": "design-fleet-artefact",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR35",
+      "name": "determinism",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 43.16
+    },
+    {
+      "id": "RR36",
+      "name": "no-absolute-paths",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.01
+    },
+    {
+      "id": "RR37",
+      "name": "no-placeholder-algebra",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.02
+    },
+    {
+      "id": "RR38",
+      "name": "provenance-tags",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR39",
+      "name": "edi-study-artefact",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR40",
+      "name": "reference-case-hashes",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR41",
+      "name": "docs-links",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR42",
+      "name": "defect-log-integrity",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR43",
+      "name": "pipeline-gates",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR44",
+      "name": "edi-doc-matches-data",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR45",
+      "name": "tool-catalog-alignment",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR46",
+      "name": "gaps-doc-honesty",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR47",
+      "name": "roadmap-blocked-markers",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR48",
+      "name": "verification-doc",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR49",
+      "name": "hygiene",
+      "status": "ok",
+      "findings": 10,
+      "worst": "MINOR",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR50",
+      "name": "repo-size",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR51",
+      "name": "discoverability",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR52",
+      "name": "fleet-on-fleet",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR53",
+      "name": "v02-skills-wired",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR54",
+      "name": "drawings-artefacts",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    },
+    {
+      "id": "RR55",
+      "name": "fe-selftest",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 8.78
+    },
+    {
+      "id": "RR56",
+      "name": "readme-v02-claims",
+      "status": "ok",
+      "findings": 1,
+      "worst": "PASS",
+      "seconds": 0.0
+    }
+  ],
+  "findings": [
+    {
+      "agent": "RR01",
+      "severity": "PASS",
+      "title": "README hero complete",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR02",
+      "severity": "PASS",
+      "title": "badges valid",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR03",
+      "severity": "PASS",
+      "title": "all README links resolve",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR04",
+      "severity": "PASS",
+      "title": "honest scope stated, no overclaims",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR05",
+      "severity": "PASS",
+      "title": "README numbers match design_record.json",
+      "evidence": "7 claims checked",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR06",
+      "severity": "PASS",
+      "title": "all harnesses covered",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR07",
+      "severity": "PASS",
+      "title": "licensing consistent",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR08",
+      "severity": "PASS",
+      "title": "security policy covers injection, supply chain, engineering safety",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR09",
+      "severity": "PASS",
+      "title": "evidence bar documented",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR10",
+      "severity": "PASS",
+      "title": "changelog ok",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR11",
+      "severity": "PASS",
+      "title": "marketplace manifest valid",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR12",
+      "severity": "PASS",
+      "title": "CI workflow parses, python pinned",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR13",
+      "severity": "PASS",
+      "title": "CI runs the full verification chain",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR14",
+      "severity": "PASS",
+      "title": "issue templates present",
+      "evidence": "['skill_proposal.yml', 'bug_report.yml']",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR15",
+      "severity": "PASS",
+      "title": "PR template",
+      "evidence": "evidence checklist present",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR16",
+      "severity": "PASS",
+      "title": "maintenance path documented",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR17",
+      "severity": "PASS",
+      "title": "Agent Skills spec lint",
+      "evidence": "linted 33 skills: 0 error(s), 0 warning(s)",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR18",
+      "severity": "PASS",
+      "title": "skill count matches (33)",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR19",
+      "severity": "PASS",
+      "title": "all stages covered, no orphan skills",
+      "evidence": "24 stage skills + 5 cross-cutting",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR20",
+      "severity": "PASS",
+      "title": "all skills listed in README",
+      "evidence": "33",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR21",
+      "severity": "PASS",
+      "title": "all skills carry gates",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR22",
+      "severity": "PASS",
+      "title": "all skills carry prohibitions",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR23",
+      "severity": "MAJOR",
+      "title": "structural-loads: no escalation/human path",
+      "evidence": "-",
+      "action_required": "every skill must know where its authority ends",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR24",
+      "severity": "PASS",
+      "title": "orchestrator references every skill",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR25",
+      "severity": "PASS",
+      "title": "defect log (48 entries) cited by key skills",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR26",
+      "severity": "PASS",
+      "title": "rule numbers carry citations",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR27",
+      "severity": "PASS",
+      "title": "refusal mechanics present where required",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR28",
+      "severity": "PASS",
+      "title": "doc skill references resolve",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR29",
+      "severity": "PASS",
+      "title": "all 18 python files compile",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR30",
+      "severity": "PASS",
+      "title": "analytic prism reproduced exactly by both solvers",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR31",
+      "severity": "PASS",
+      "title": "structure self-tests",
+      "evidence": "SWBM self-test 3 (midship BM must be ~0 for that loading): PASS",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR32",
+      "severity": "PASS",
+      "title": "powering self-tests",
+      "evidence": "self-tests passed: 1+k = 1.45 (ESTIMATE), Cf(Re=1e9) = 0.001531",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR33",
+      "severity": "PASS",
+      "title": "design record complete",
+      "evidence": "10 artefacts",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR34",
+      "severity": "PASS",
+      "title": "design fleet: 64 agents, 0 crashes",
+      "evidence": "{'BLOCKER': 3, 'MAJOR': 12, 'MINOR': 13, 'INFO': 15, 'PASS': 69}",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR35",
+      "severity": "PASS",
+      "title": "pipeline determinism",
+      "evidence": "OK: hull regenerates identically (sha256:ee52e1a8e84a28f2)\nOK: full pipeline regeneration is deterministic",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR36",
+      "severity": "PASS",
+      "title": "no absolute or /tmp-hardcoded paths",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR37",
+      "severity": "PASS",
+      "title": "no placeholder algebra",
+      "evidence": "18 files scanned",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR38",
+      "severity": "PASS",
+      "title": "provenance tagging in place",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR39",
+      "severity": "PASS",
+      "title": "EEDI trade study complete",
+      "evidence": "768 combinations, 413 compliant",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR40",
+      "severity": "PASS",
+      "title": "geometry hash matches the record",
+      "evidence": "sha256:ee52e1a8e84a28f2",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR41",
+      "severity": "PASS",
+      "title": "all doc links resolve",
+      "evidence": "11 files",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR42",
+      "severity": "PASS",
+      "title": "defect log complete (48 entries + gate summary + refusals)",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR43",
+      "severity": "PASS",
+      "title": "pipeline documented with gates and skills",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR44",
+      "severity": "PASS",
+      "title": "EEDI case study matches the artefact",
+      "evidence": "5 claims",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR45",
+      "severity": "PASS",
+      "title": "catalogue aligned with the implementation",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR46",
+      "severity": "PASS",
+      "title": "gaps and human gates documented",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR47",
+      "severity": "PASS",
+      "title": "roadmap marks blocked items and non-goals",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR48",
+      "severity": "PASS",
+      "title": "all four mechanisms documented",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR49",
+      "severity": "MINOR",
+      "title": "__pycache__ at reference-implementation/code",
+      "evidence": "-",
+      "action_required": "add .gitignore",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR49",
+      "severity": "MINOR",
+      "title": "junk file hull_parametric.cpython-312.pyc",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR49",
+      "severity": "MINOR",
+      "title": "junk file loading.cpython-312.pyc",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR49",
+      "severity": "MINOR",
+      "title": "junk file hydrostatics.cpython-312.pyc",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR49",
+      "severity": "MINOR",
+      "title": "junk file structure.cpython-312.pyc",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR49",
+      "severity": "MINOR",
+      "title": "junk file fe_beam.cpython-312.pyc",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR49",
+      "severity": "MINOR",
+      "title": "junk file explore.cpython-312.pyc",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR49",
+      "severity": "MINOR",
+      "title": "junk file powering.cpython-312.pyc",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR49",
+      "severity": "MINOR",
+      "title": "junk file iscode.cpython-312.pyc",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR49",
+      "severity": "MINOR",
+      "title": "junk file drawings.cpython-312.pyc",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR50",
+      "severity": "PASS",
+      "title": "repo size ok (3.15 MB)",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR51",
+      "severity": "PASS",
+      "title": "discoverability keywords present",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR52",
+      "severity": "PASS",
+      "title": "repo fleet: 56 agents",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR53",
+      "severity": "PASS",
+      "title": "v0.2 skills present and wired",
+      "evidence": "('simulation-suite', 'toolchain-selection', 'cad-drawing-generation', 'error-fix-loop')",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR54",
+      "severity": "PASS",
+      "title": "drawings generated and verified",
+      "evidence": "4 sheets, 19 read-back checks",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR55",
+      "severity": "PASS",
+      "title": "beam FE validation + ship cross-check",
+      "evidence": "FE_OK True 0.99997 0.605",
+      "action_required": "-",
+      "owner": "maintainers"
+    },
+    {
+      "agent": "RR56",
+      "severity": "PASS",
+      "title": "v0.2 claims consistent",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "maintainers"
+    }
+  ],
+  "counts": {
+    "BLOCKER": 0,
+    "MAJOR": 1,
+    "MINOR": 10,
+    "INFO": 0,
+    "PASS": 54
+  },
+  "generated_utc": "2026-10-25T20:10:10+0600"
+}

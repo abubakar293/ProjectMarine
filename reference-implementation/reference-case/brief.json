@@ -1,0 +1,57 @@
+{
+  "ship_type": "Handysize bulk carrier",
+  "service": "minor bulks: grain, coal, iron ore, steel, logs",
+  "trade": "worldwide, unrestricted navigation",
+  "cargo_capacity_target_t": 35500,
+  "dwt_target_t": 39000,
+  "service_speed_kn": 14.0,
+  "range_nm": 12000,
+  "crew": 22,
+  "max_loa_m": 190.0,
+  "max_breadth_m": 29.8,
+  "max_air_draft_m": 25.0,
+  "max_scantling_draft_m": 10.5,
+  "flag": "to be selected",
+  "class_society": "to be selected",
+  "rule_set": "IACS CSR (Bulk Carriers), SOLAS, MARPOL, Load Line, Tonnage, 2008 IS Code, EEDI Phase 3",
+  "propulsion": "single screw, 2-stroke slow-speed diesel, HFO",
+  "holds": 4,
+  "hatch_cranes": 4,
+  "requirements": [
+    {
+      "id": "R-01",
+      "text": "cargo capacity >= 35,500 t homogeneous iron ore",
+      "verify": "capacities plan + loading condition"
+    },
+    {
+      "id": "R-02",
+      "text": "service speed 14.0 kn at scantling draft, 15% sea margin",
+      "verify": "speed-power prediction"
+    },
+    {
+      "id": "R-03",
+      "text": "intact stability per 2008 IS Code in all approved conditions",
+      "verify": "stability booklet"
+    },
+    {
+      "id": "R-04",
+      "text": "hull girder and local scantlings per CSR",
+      "verify": "structural calculation"
+    },
+    {
+      "id": "R-05",
+      "text": "EEDI Phase 3 compliance",
+      "verify": "EEDI technical file"
+    },
+    {
+      "id": "R-06",
+      "text": "LOA <= 190 m, B <= 29.8 m, T <= 10.5 m",
+      "verify": "principal dimensions"
+    },
+    {
+      "id": "R-07",
+      "text": "range 12,000 nm without refuelling",
+      "verify": "fuel capacity vs consumption"
+    }
+  ]
+}

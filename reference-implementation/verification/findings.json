@@ -1,0 +1,1533 @@
+{
+  "agents": [
+    {
+      "id": "A01",
+      "name": "brief-completeness",
+      "domain": "intake",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "MAJOR"
+    },
+    {
+      "id": "A02",
+      "name": "requirement-traceability",
+      "domain": "intake",
+      "status": "ok",
+      "findings": 4,
+      "seconds": 0.0,
+      "worst": "BLOCKER"
+    },
+    {
+      "id": "A03",
+      "name": "contradiction-detection",
+      "domain": "intake",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "A04",
+      "name": "scope-boundary",
+      "domain": "intake",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.01,
+      "worst": "PASS"
+    },
+    {
+      "id": "B01",
+      "name": "principal-dimensions",
+      "domain": "naval architecture",
+      "status": "ok",
+      "findings": 3,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "B02",
+      "name": "hull-form-coefficients",
+      "domain": "naval architecture",
+      "status": "ok",
+      "findings": 5,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "B03",
+      "name": "geometry-consistency",
+      "domain": "naval architecture",
+      "status": "ok",
+      "findings": 7,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "B04",
+      "name": "hull-fairness",
+      "domain": "naval architecture",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "MINOR"
+    },
+    {
+      "id": "B05",
+      "name": "hydrostatics-table",
+      "domain": "naval architecture",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 1.94,
+      "worst": "PASS"
+    },
+    {
+      "id": "B06",
+      "name": "stability-is-code",
+      "domain": "naval architecture",
+      "status": "ok",
+      "findings": 7,
+      "seconds": 0.0,
+      "worst": "MAJOR"
+    },
+    {
+      "id": "B07",
+      "name": "gz-curve-physics",
+      "domain": "naval architecture",
+      "status": "ok",
+      "findings": 2,
+      "seconds": 0.0,
+      "worst": "INFO"
+    },
+    {
+      "id": "B08",
+      "name": "free-surface",
+      "domain": "naval architecture",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "B09",
+      "name": "trim-and-drafts",
+      "domain": "naval architecture",
+      "status": "ok",
+      "findings": 5,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "B10",
+      "name": "powering-validity",
+      "domain": "naval architecture",
+      "status": "ok",
+      "findings": 3,
+      "seconds": 0.0,
+      "worst": "MAJOR"
+    },
+    {
+      "id": "B11",
+      "name": "capacity-and-range",
+      "domain": "naval architecture",
+      "status": "ok",
+      "findings": 3,
+      "seconds": 0.0,
+      "worst": "INFO"
+    },
+    {
+      "id": "B12",
+      "name": "weight-control",
+      "domain": "naval architecture",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "C01",
+      "name": "swbm-integration",
+      "domain": "structure",
+      "status": "ok",
+      "findings": 2,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "C02",
+      "name": "wave-bm-open",
+      "domain": "structure",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "MAJOR"
+    },
+    {
+      "id": "C03",
+      "name": "section-modulus",
+      "domain": "structure",
+      "status": "ok",
+      "findings": 3,
+      "seconds": 0.0,
+      "worst": "MINOR"
+    },
+    {
+      "id": "C04",
+      "name": "girder-utilisation",
+      "domain": "structure",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "MAJOR"
+    },
+    {
+      "id": "C05",
+      "name": "load-cases",
+      "domain": "structure",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "MINOR"
+    },
+    {
+      "id": "D01",
+      "name": "compartmentation-consistency",
+      "domain": "arrangement",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "D02",
+      "name": "hold-and-cargo",
+      "domain": "arrangement",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "D03",
+      "name": "tank-placement",
+      "domain": "arrangement",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "D04",
+      "name": "double-bottom-and-freeboard",
+      "domain": "arrangement",
+      "status": "ok",
+      "findings": 2,
+      "seconds": 0.0,
+      "worst": "INFO"
+    },
+    {
+      "id": "E01",
+      "name": "marpol-eedi",
+      "domain": "compliance",
+      "status": "ok",
+      "findings": 2,
+      "seconds": 0.0,
+      "worst": "BLOCKER"
+    },
+    {
+      "id": "E02",
+      "name": "statutory-inventory",
+      "domain": "compliance",
+      "status": "ok",
+      "findings": 2,
+      "seconds": 0.02,
+      "worst": "MAJOR"
+    },
+    {
+      "id": "E03",
+      "name": "rule-provenance",
+      "domain": "compliance",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "MAJOR"
+    },
+    {
+      "id": "E04",
+      "name": "open-items-visible",
+      "domain": "compliance",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "F01",
+      "name": "ground-truth-tests",
+      "domain": "verification",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.13,
+      "worst": "PASS"
+    },
+    {
+      "id": "F02",
+      "name": "crosscheck-agreement",
+      "domain": "verification",
+      "status": "ok",
+      "findings": 2,
+      "seconds": 0.0,
+      "worst": "MINOR"
+    },
+    {
+      "id": "F03",
+      "name": "mesh-integrity",
+      "domain": "verification",
+      "status": "ok",
+      "findings": 3,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "F04",
+      "name": "discretisation-convergence",
+      "domain": "verification",
+      "status": "ok",
+      "findings": 3,
+      "seconds": 1.75,
+      "worst": "INFO"
+    },
+    {
+      "id": "F05",
+      "name": "reproducibility",
+      "domain": "verification",
+      "status": "ok",
+      "findings": 2,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "F06",
+      "name": "unit-conventions",
+      "domain": "verification",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "F07",
+      "name": "no-invented-constants",
+      "domain": "verification",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "F08",
+      "name": "plausibility-gates",
+      "domain": "verification",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "F09",
+      "name": "uncertainty-propagation",
+      "domain": "verification",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "F10",
+      "name": "self-tests-exist",
+      "domain": "verification",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.16,
+      "worst": "PASS"
+    },
+    {
+      "id": "G01",
+      "name": "steel-takeoff",
+      "domain": "production",
+      "status": "ok",
+      "findings": 0,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "G02",
+      "name": "cost-basis",
+      "domain": "production",
+      "status": "ok",
+      "findings": 0,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "G03",
+      "name": "buildability-screen",
+      "domain": "production",
+      "status": "ok",
+      "findings": 2,
+      "seconds": 0.0,
+      "worst": "MAJOR"
+    },
+    {
+      "id": "G04",
+      "name": "schedule-feasibility",
+      "domain": "project",
+      "status": "ok",
+      "findings": 2,
+      "seconds": 0.0,
+      "worst": "MINOR"
+    },
+    {
+      "id": "G05",
+      "name": "vendor-data-gap",
+      "domain": "project",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "MAJOR"
+    },
+    {
+      "id": "H01",
+      "name": "skill-quality",
+      "domain": "documentation",
+      "status": "ok",
+      "findings": 5,
+      "seconds": 0.01,
+      "worst": "MINOR"
+    },
+    {
+      "id": "H02",
+      "name": "claim-substantiation",
+      "domain": "documentation",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "H03",
+      "name": "human-gate-definition",
+      "domain": "documentation",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.01,
+      "worst": "PASS"
+    },
+    {
+      "id": "H04",
+      "name": "defect-log",
+      "domain": "documentation",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.02,
+      "worst": "PASS"
+    },
+    {
+      "id": "H05",
+      "name": "dead-code-and-placeholders",
+      "domain": "documentation",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.05,
+      "worst": "PASS"
+    },
+    {
+      "id": "H06",
+      "name": "comment-code-contradiction",
+      "domain": "documentation",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "I01",
+      "name": "single-source-of-truth",
+      "domain": "architecture",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "I02",
+      "name": "design-space-exploration",
+      "domain": "architecture",
+      "status": "ok",
+      "findings": 0,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "I03",
+      "name": "reviewer-gate",
+      "domain": "architecture",
+      "status": "ok",
+      "findings": 3,
+      "seconds": 0.0,
+      "worst": "BLOCKER"
+    },
+    {
+      "id": "I04",
+      "name": "escalation-path",
+      "domain": "architecture",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "INFO"
+    },
+    {
+      "id": "I05",
+      "name": "audit-trail",
+      "domain": "architecture",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "I06",
+      "name": "agent-count-and-coverage",
+      "domain": "architecture",
+      "status": "ok",
+      "findings": 2,
+      "seconds": 0.0,
+      "worst": "INFO"
+    },
+    {
+      "id": "I07",
+      "name": "honesty-about-limits",
+      "domain": "architecture",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "I08",
+      "name": "determinism",
+      "domain": "architecture",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 2.17,
+      "worst": "PASS"
+    },
+    {
+      "id": "I09",
+      "name": "gate-enforcement",
+      "domain": "architecture",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "I10",
+      "name": "secrets-and-licensing",
+      "domain": "architecture",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "MINOR"
+    },
+    {
+      "id": "B13",
+      "name": "drawings-model-consistency",
+      "domain": "drawing",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "C06",
+      "name": "fe-bm-crosscheck",
+      "domain": "structure",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    },
+    {
+      "id": "F11",
+      "name": "simulation-validation-status",
+      "domain": "verification",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.9,
+      "worst": "PASS"
+    },
+    {
+      "id": "F12",
+      "name": "finalization-freeze",
+      "domain": "architecture",
+      "status": "ok",
+      "findings": 1,
+      "seconds": 0.0,
+      "worst": "PASS"
+    }
+  ],
+  "findings": [
+    {
+      "agent": "A01",
+      "severity": "MAJOR",
+      "title": "brief fields not yet decided",
+      "evidence": [
+        "flag",
+        "class_society"
+      ],
+      "action_required": "flag administration and class society drive the entire rule set; they must be fixed before rule compliance can be claimed",
+      "owner": "design team"
+    },
+    {
+      "agent": "A02",
+      "severity": "MAJOR",
+      "title": "R-02 OPEN: service speed 14.0 kn at scantling draft, 15% sea margin",
+      "evidence": "MCR 4,361 kW at 14.0 kn; confidence PRELIMINARY (wave resistance and propulsor efficiency are declared estimates)",
+      "action_required": "close before class submission",
+      "owner": "design team"
+    },
+    {
+      "agent": "A02",
+      "severity": "MAJOR",
+      "title": "R-04 OPEN: hull girder and local scantlings per CSR",
+      "evidence": "Z_deck = 15,977,030 cm3 (within parent band: True); M_sw = -1,834,163 kNm by direct integration; M_vw OPEN - M_vw is OPEN, so the total hull-girder moment cannot be formed",
+      "action_required": "close before class submission",
+      "owner": "design team"
+    },
+    {
+      "agent": "A02",
+      "severity": "BLOCKER",
+      "title": "R-05 FAILS: EEDI Phase 3 compliance",
+      "evidence": "attained 6.342 vs required 4.379",
+      "action_required": "resolve or obtain an owner deviation",
+      "owner": "owner + chief engineer"
+    },
+    {
+      "agent": "A02",
+      "severity": "INFO",
+      "title": "traceability summary",
+      "evidence": {
+        "PASS": 4,
+        "FAIL": 1,
+        "OPEN": 2
+      },
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "A03",
+      "severity": "PASS",
+      "title": "no unresolved constraint conflicts",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "A04",
+      "severity": "PASS",
+      "title": "human/class boundaries are declared",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B01",
+      "severity": "PASS",
+      "title": "LOA <= limit",
+      "evidence": "LOA = 190.000 m vs limit 190.0 m",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B01",
+      "severity": "PASS",
+      "title": "B <= limit",
+      "evidence": "B = 29.800 m vs limit 29.8 m",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B01",
+      "severity": "PASS",
+      "title": "T <= limit",
+      "evidence": "T = 10.500 m vs limit 10.5 m",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B02",
+      "severity": "PASS",
+      "title": "Cb inside the Handysize band",
+      "evidence": "Cb = 0.84500, band [0.8, 0.87]",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B02",
+      "severity": "PASS",
+      "title": "Cm inside the Handysize band",
+      "evidence": "Cm = 0.96087, band [0.95, 0.995]",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B02",
+      "severity": "PASS",
+      "title": "Cp inside the Handysize band",
+      "evidence": "Cp = 0.87941, band [0.82, 0.9]",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B02",
+      "severity": "PASS",
+      "title": "LCB_pct_Lpp inside the Handysize band",
+      "evidence": "LCB_pct_Lpp = 50.52000, band [49.0, 53.0]",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B02",
+      "severity": "PASS",
+      "title": "Cm * Cp == Cb",
+      "evidence": "0.844999",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B03",
+      "severity": "PASS",
+      "title": "volume_m3 two-solver agreement",
+      "evidence": "independent 45590.324729, navaltoolbox 45590.324088, delta 0.0000%",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B03",
+      "severity": "PASS",
+      "title": "KB_m two-solver agreement",
+      "evidence": "independent 5.325641, navaltoolbox 5.325641, delta 0.0000%",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B03",
+      "severity": "PASS",
+      "title": "Awp_m2 two-solver agreement",
+      "evidence": "independent 4715.24394, navaltoolbox 4715.243865, delta 0.0000%",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B03",
+      "severity": "PASS",
+      "title": "BMt_m two-solver agreement",
+      "evidence": "independent 6.743068, navaltoolbox 6.743068, delta 0.0000%",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B03",
+      "severity": "PASS",
+      "title": "BMl_m two-solver agreement",
+      "evidence": "independent 226.98983, navaltoolbox 226.989832, delta 0.0000%",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B03",
+      "severity": "PASS",
+      "title": "LCF_m_from_AP two-solver agreement",
+      "evidence": "independent 90.939817, navaltoolbox 90.939817, delta 0.0000%",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B03",
+      "severity": "PASS",
+      "title": "LCB_m_from_AP two-solver agreement",
+      "evidence": "independent 90.912237, navaltoolbox 90.912237, delta 0.0000%",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B04",
+      "severity": "MINOR",
+      "title": "section-area curve smoothness",
+      "evidence": "1 curvature spikes of 17 interior points; max area 279.7 m2 at x=45.0 m",
+      "action_required": "inspect the fairness of the run and entrance; an unfair Cp distribution becomes a wave-making hump",
+      "owner": "design team"
+    },
+    {
+      "agent": "B05",
+      "severity": "PASS",
+      "title": "hydrostatics table monotonic",
+      "evidence": "vol 7,107->63,571 m3, KB 1.11->7.24 m, BMt 29.17->4.60 m",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B06",
+      "severity": "PASS",
+      "title": "IS-2.1.1-a Area under GZ curve to phi = 30 deg",
+      "evidence": "limit >= 0.055 m.rad, computed 0.9358",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B06",
+      "severity": "PASS",
+      "title": "IS-2.1.1-b Area under GZ curve to phi = 40 deg (or angle of flooding if less)",
+      "evidence": "limit >= 0.09 m.rad, computed 1.5764",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B06",
+      "severity": "PASS",
+      "title": "IS-2.1.1-c Area under GZ curve between phi = 30 deg and phi = 40 deg (or flooding)",
+      "evidence": "limit >= 0.03 m.rad, computed 0.6407",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B06",
+      "severity": "PASS",
+      "title": "IS-2.1.2 Initial metacentric height GM (corrected for free surfaces)",
+      "evidence": "limit >= 0.15 m, computed 6.5072",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B06",
+      "severity": "PASS",
+      "title": "IS-2.1.3-a GZ at phi = 30 deg",
+      "evidence": "limit >= 0.2 m, computed 3.4015",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B06",
+      "severity": "PASS",
+      "title": "IS-2.1.3-b Maximum GZ occurring at an angle not less than",
+      "evidence": "limit >= 25.0 deg, computed 50.0000",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B06",
+      "severity": "MAJOR",
+      "title": "IS-2.2.3 OPEN",
+      "evidence": "requires the 2008 IS Code tabulated wave-slope coefficients X1, X2, the roll-radius coefficient k and the standard roll-period formula; these must be read from the Code, not reproduced from memory",
+      "action_required": "run the weather criterion in a class-approved stability tool (NAPA, GHS, Maxsurf Stability, DNV Nauticus Stability) and record the clause-by-clause output, or encode the IS Code tables from a licensed copy of the Code",
+      "owner": "stability engineer + class"
+    },
+    {
+      "agent": "B07",
+      "severity": "PASS",
+      "title": "small-angle identity dGZ/dphi -> GM",
+      "evidence": "fitted slope 6.9626 m/rad vs GM 6.8090 m (+2.26%)",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B07",
+      "severity": "INFO",
+      "title": "GZ maximum",
+      "evidence": "4.060 m at 50 deg",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B08",
+      "severity": "PASS",
+      "title": "free-surface correction applied",
+      "evidence": "FSC = 0.3019 m over 8 slack tanks; GM_solid 6.8090 -> GM_fluid 6.5072 m",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B09",
+      "severity": "PASS",
+      "title": "departure_full_cargo equilibrium",
+      "evidence": "disp 46,730.1 t, trim +0.677 deg (+2.127 m), LCB residual -1.58e-07 m",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B09",
+      "severity": "PASS",
+      "title": "arrival_full_cargo equilibrium",
+      "evidence": "disp 44,898.5 t, trim +1.394 deg (+4.380 m), LCB residual -6.65e-10 m",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B09",
+      "severity": "PASS",
+      "title": "ballast_departure equilibrium",
+      "evidence": "disp 27,502.8 t, trim -0.631 deg (-1.981 m), LCB residual -1.46e-09 m",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B09",
+      "severity": "PASS",
+      "title": "ballast_partial equilibrium",
+      "evidence": "disp 20,180.1 t, trim -0.910 deg (-2.859 m), LCB residual -5.36e-08 m",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B09",
+      "severity": "PASS",
+      "title": "heavy_weather equilibrium",
+      "evidence": "disp 46,001.1 t, trim +1.442 deg (+4.531 m), LCB residual -5.52e-10 m",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B10",
+      "severity": "PASS",
+      "title": "all powering inputs inside the validity band",
+      "evidence": "Fn = 0.1714, Cb = 0.8450",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B10",
+      "severity": "INFO",
+      "title": "declared ESTIMATE-class inputs",
+      "evidence": [
+        "form_factor",
+        "R_wave",
+        "ESTIMATE"
+      ],
+      "action_required": "replace before any warranty",
+      "owner": "design team"
+    },
+    {
+      "agent": "B10",
+      "severity": "MAJOR",
+      "title": "powering confidence is PRELIMINARY",
+      "evidence": "PRELIMINARY - wave resistance, wake, thrust deduction and propeller efficiency are declared estimates, not computed values",
+      "action_required": "no speed/consumption warranty may be offered on this basis",
+      "owner": "design team"
+    },
+    {
+      "agent": "B11",
+      "severity": "PASS",
+      "title": "range requirement met",
+      "evidence": "29,363 nm vs 12,000 nm (2.4x the requirement)",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B11",
+      "severity": "PASS",
+      "title": "ballast draft adequate",
+      "evidence": "6.207 m",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B11",
+      "severity": "INFO",
+      "title": "ballast capacity",
+      "evidence": "15,876 m3",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "B12",
+      "severity": "PASS",
+      "title": "lightship / DWT ratio",
+      "evidence": "0.2406 (bulk carriers typically 0.19-0.28)",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "C01",
+      "severity": "PASS",
+      "title": "load curve equilibrium satisfied",
+      "evidence": "sum q = 1.79e-04 kN, sum q*x about LCG = -9.52e+03 kNm, SF and BM zero at both ends",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "C01",
+      "severity": "PASS",
+      "title": "midship SWBM within the parent-ship band",
+      "evidence": "-1,834,163 kNm vs band (500000.0, 2500000.0) for a Handysize in the loaded condition",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "C02",
+      "severity": "MAJOR",
+      "title": "wave bending moment is OPEN",
+      "evidence": "the vertical wave bending moment coefficient could not be transcribed reliably from memory; three attempts gave 1.52e8, 152 and 3.52e5 kNm against a parent-ship expectation of ~2e6 kNm for L = 180 m",
+      "action_required": "read the vertical wave bending moment formula, the wave coefficient and the hull-girder stress acceptance criterion from the CSR edition in force, or obtain M_vw from a class-approved tool (DNV Nauticus Hull, ABS hull-girder tools, LR), then re-run this module",
+      "owner": "structural engineer + class"
+    },
+    {
+      "agent": "C03",
+      "severity": "PASS",
+      "title": "Z_deck inside the parent-ship band",
+      "evidence": "15,977,030 cm3",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "C03",
+      "severity": "MINOR",
+      "title": "longitudinal own inertia and shear lag neglected",
+      "evidence": "longitudinal own second moments and the shear-lag reduction of wide flanges are neglected; CSR requires both and both reduce the modulus",
+      "action_required": "both reduce the modulus; CSR requires both",
+      "owner": "design team"
+    },
+    {
+      "agent": "C03",
+      "severity": "INFO",
+      "title": "midship section is a declared estimate",
+      "evidence": "ESTIMATE - every plate thickness and longitudinal spacing is a declared preliminary value, not a rule-derived scantling",
+      "action_required": "replace with rule-derived scantlings",
+      "owner": "design team"
+    },
+    {
+      "agent": "C04",
+      "severity": "MAJOR",
+      "title": "hull-girder check is OPEN",
+      "evidence": "M_vw is OPEN, so the total hull-girder moment cannot be formed",
+      "action_required": "cannot be closed until M_vw is available",
+      "owner": "structural engineer"
+    },
+    {
+      "agent": "C05",
+      "severity": "MINOR",
+      "title": "only one loading condition was integrated for SWBM",
+      "evidence": "5 stability conditions exist; the structural record uses one",
+      "action_required": "integrate the load curve for every condition that can govern, including alternate-hold loading if the ship is to carry it",
+      "owner": "structural engineer"
+    },
+    {
+      "agent": "D01",
+      "severity": "PASS",
+      "title": "capacities and stability share one tank model",
+      "evidence": "22 tanks",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "D02",
+      "severity": "PASS",
+      "title": "cargo capacity vs requirement",
+      "evidence": "35,500 t vs 35,500 t (stowage factor 1.35 m3/t)",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "D03",
+      "severity": "PASS",
+      "title": "tank placement clear of the cargo zone",
+      "evidence": "22 tanks checked",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "D04",
+      "severity": "PASS",
+      "title": "double-bottom height",
+      "evidence": "1.200 m (CSR minimum is 760 mm or B/15, whichever is greater, subject to the rule text)",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "D04",
+      "severity": "INFO",
+      "title": "freeboard at departure",
+      "evidence": "5.015 m",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "E01",
+      "severity": "BLOCKER",
+      "title": "EEDI Phase 3 NOT satisfied",
+      "evidence": "attained 6.3419 vs required 4.3794 gCO2/(t.nm), margin -44.8%",
+      "action_required": "compliant at <= 5.9 kn or MCR <= 2,911 kW; options: ['reduce contract speed (cheapest, costs schedule on the trade)', 'larger DWT for the same hull (raises the reference line: required EEDI ~ DWT^-0.4778)', 'energy-saving device / propeller boss cap fins (f_w credit where applicable)', 'shaft generator and waste-heat recovery to cut P_AE', 'dual-fuel or LNG (different C_f, and a different rule path entirely)']",
+      "owner": "owner + chief engineer"
+    },
+    {
+      "agent": "E01",
+      "severity": "MAJOR",
+      "title": "EEDI rests on ESTIMATE-class power",
+      "evidence": "PRELIMINARY - wave resistance, wake, thrust deduction and propeller efficiency are declared estimates, not computed values",
+      "action_required": "the attained value cannot be filed until the powering estimate is replaced by a verified method",
+      "owner": "design team"
+    },
+    {
+      "agent": "E02",
+      "severity": "PASS",
+      "title": "all expected instruments are referenced",
+      "evidence": "11 instruments",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "E02",
+      "severity": "MAJOR",
+      "title": "no rule database exists yet",
+      "evidence": "rules are named in prose but there is no machine-readable clause table",
+      "action_required": "build the clause database (id, source, edition, applies_to, formula, limit, evidence) before claiming automated compliance",
+      "owner": "rules engineer"
+    },
+    {
+      "agent": "E03",
+      "severity": "MAJOR",
+      "title": "rule edition not pinned",
+      "evidence": "MUST be confirmed against the current CSR release at submission",
+      "action_required": "cite the exact CSR edition and any unified interpretations in force at submission",
+      "owner": "design team"
+    },
+    {
+      "agent": "E04",
+      "severity": "PASS",
+      "title": "open items are recorded",
+      "evidence": "13 OPEN / not-implemented markers in the design record",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F01",
+      "severity": "PASS",
+      "title": "analytic prism ground truth reproduced",
+      "evidence": "volume, KB, Awp, BMt, BMl, LCF, LCB all exact for the closed-form prism in both solvers",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F02",
+      "severity": "MINOR",
+      "title": "two-solver agreement on the real hull",
+      "evidence": "worst non-zero delta 5.6640% over 24 quantities",
+      "action_required": "identify the disagreeing quantity and resolve it before use",
+      "owner": "design team"
+    },
+    {
+      "agent": "F02",
+      "severity": "MINOR",
+      "title": "GZ disagreement grows at large heel",
+      "evidence": [
+        [
+          "GZ@0deg_m",
+          "-200.44%"
+        ]
+      ],
+      "action_required": "expected: at large angles the two implementations differ in how they resolve sinkage on a faceted mesh. Document the tolerance, do not quote large-angle GZ to more than two significant figures",
+      "owner": "design team"
+    },
+    {
+      "agent": "F03",
+      "severity": "PASS",
+      "title": "mesh closed",
+      "evidence": "True (required True)",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F03",
+      "severity": "PASS",
+      "title": "mesh boundary_edges",
+      "evidence": "0 (required 0)",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F03",
+      "severity": "PASS",
+      "title": "mesh non_manifold_edges",
+      "evidence": "0 (required 0)",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F04",
+      "severity": "INFO",
+      "title": "mesh 91x20 volume vs parametric",
+      "evidence": "44,873.70 m3 vs 45,944.18 m3 (-2.330%)",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F04",
+      "severity": "INFO",
+      "title": "mesh 181x40 volume vs parametric",
+      "evidence": "45,590.32 m3 vs 45,944.18 m3 (-0.770%)",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F04",
+      "severity": "INFO",
+      "title": "mesh 361x80 volume vs parametric",
+      "evidence": "45,916.58 m3 vs 45,944.18 m3 (-0.060%)",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F05",
+      "severity": "PASS",
+      "title": "all design-record artefacts present",
+      "evidence": "9 files",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F05",
+      "severity": "PASS",
+      "title": "stage-by-stage run log present",
+      "evidence": "17 entries",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F06",
+      "severity": "PASS",
+      "title": "unit conventions documented at the call sites",
+      "evidence": "navaltoolbox: water_density in t/m3 gives displacement in tonnes; gz_curve takes mass in the same unit",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F07",
+      "severity": "PASS",
+      "title": "the stack refuses rather than invents rule constants",
+      "evidence": "wave_bm returns an OPEN item; the wave-resistance regression is NotImplementedError rather than a recollection",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F08",
+      "severity": "PASS",
+      "title": "plausibility gates present",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F09",
+      "severity": "PASS",
+      "title": "EEDI margin carries a sensitivity statement",
+      "evidence": "a 10% power underestimate moves attained EEDI by -10%; the declared ESTIMATE-class wave and propulsor terms are larger than that, so this margin is indicative only",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F10",
+      "severity": "PASS",
+      "title": "structure self-tests pass",
+      "evidence": "SWBM self-test 1 (balanced uniform load): max |BM| = 7.102e-11 kNm  -> PASS\nSWBM self-test 2 (quarter-point loads, hogging at x=L/4): analytic 30,645.78 kNm, computed 30,569.21 kNm, error 0.2499%  -> ",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "G03",
+      "severity": "INFO",
+      "title": "midship plate thicknesses",
+      "evidence": [
+        14.0,
+        16.0,
+        18.0,
+        20.0,
+        22.0
+      ],
+      "action_required": "no block-assembly or crane-capability screen exists yet",
+      "owner": "design team"
+    },
+    {
+      "agent": "G03",
+      "severity": "MAJOR",
+      "title": "no constructability model exists",
+      "evidence": "the reviewer scores constructability but nothing computes it",
+      "action_required": "encode yard limits (max block weight, crane capacity, panel size, weld access) as data before scoring against them",
+      "owner": "production engineer"
+    },
+    {
+      "agent": "G04",
+      "severity": "MINOR",
+      "title": "no delivery date in the brief",
+      "evidence": "-",
+      "action_required": "ask the owner; it constrains the design freeze dates",
+      "owner": "design team"
+    },
+    {
+      "agent": "G04",
+      "severity": "INFO",
+      "title": "no build strategy in the record",
+      "evidence": "-",
+      "action_required": "out of scope for preliminary design",
+      "owner": "design team"
+    },
+    {
+      "agent": "G05",
+      "severity": "MAJOR",
+      "title": "no vendor data referenced anywhere",
+      "evidence": "the engine, propeller, cranes and hatch covers are all assumed envelopes",
+      "action_required": "request datasheets; an assumed main-engine envelope invalidates the engine-room arrangement and the powering margin",
+      "owner": "chief engineer"
+    },
+    {
+      "agent": "H01",
+      "severity": "MINOR",
+      "title": "sea-trials-warranty: states no prohibitions",
+      "evidence": "-",
+      "action_required": "a skill that only says what to do will be applied where it should not be",
+      "owner": "design team"
+    },
+    {
+      "agent": "H01",
+      "severity": "MINOR",
+      "title": "references: no YAML frontmatter",
+      "evidence": "-",
+      "action_required": "skills need name + description to be discoverable",
+      "owner": "design team"
+    },
+    {
+      "agent": "H01",
+      "severity": "MINOR",
+      "title": "references: no description field",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "H01",
+      "severity": "MINOR",
+      "title": "weight-control: states no prohibitions",
+      "evidence": "-",
+      "action_required": "a skill that only says what to do will be applied where it should not be",
+      "owner": "design team"
+    },
+    {
+      "agent": "H01",
+      "severity": "MINOR",
+      "title": "production-design-handoff: states no prohibitions",
+      "evidence": "-",
+      "action_required": "a skill that only says what to do will be applied where it should not be",
+      "owner": "design team"
+    },
+    {
+      "agent": "H02",
+      "severity": "PASS",
+      "title": "catalogue and code are consistent",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "H03",
+      "severity": "PASS",
+      "title": "human sign-off gates are defined",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "H04",
+      "severity": "PASS",
+      "title": "defects are annotated in place",
+      "evidence": "24 annotations",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "H05",
+      "severity": "PASS",
+      "title": "no placeholder algebra or dead branches",
+      "evidence": "12 modules scanned",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "H06",
+      "severity": "PASS",
+      "title": "no contradictory derivations left in comments",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "I01",
+      "severity": "PASS",
+      "title": "one geometry and one tank model",
+      "evidence": "hull sha256:ee52e1a8e84a28f2, 22 tanks",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "I03",
+      "severity": "BLOCKER",
+      "title": "the reviewer gate cannot discriminate between candidates",
+      "evidence": "3 candidates scored within 0.000 points of each other ([88.51, 88.51, 88.51]), so 'selected: C-full-ends' is arbitrary",
+      "action_required": "the gate is theatre until each candidate is put through the REAL discipline chain (hull form -> hydrostatics -> powering -> structure) and scored on the results. Proxy metrics that are insensitive to the design variables cannot rank anything. Until then report the tie explicitly and do not claim a selection.",
+      "owner": "lead designer"
+    },
+    {
+      "agent": "I03",
+      "severity": "MINOR",
+      "title": "scoring anchors are saturated",
+      "evidence": [
+        "power_intensity",
+        "steel_intensity"
+      ],
+      "action_required": "axes pinned at 100 carry no information; re-anchor them so the candidates actually separate",
+      "owner": "design team"
+    },
+    {
+      "agent": "I03",
+      "severity": "INFO",
+      "title": "gate configuration",
+      "evidence": {
+        "composite_threshold": 70.0,
+        "subscore_floor": 55.0,
+        "axes": [
+          "capacity",
+          "steel_intensity",
+          "power_intensity",
+          "constructability"
+        ],
+        "note": "calibration is provisional: piecewise-linear anchors should be fitted to real ships of this type before the gate is used to reject a design"
+      },
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "I04",
+      "severity": "INFO",
+      "title": "escalations recorded",
+      "evidence": "3 FAIL/OPEN requirement(s)",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "I05",
+      "severity": "PASS",
+      "title": "stage-level audit trail present",
+      "evidence": "17 entries across stages ['S0-brief', 'S1-S2-hull', 'S3-crosscheck', 'S3-hydrostatics', 'S3-intact', 'S3-loading', 'S4-EEDI', 'S4-EEDI-trade', 'S4-powering', 'S4-range', 'S5-fe-crosscheck', 'S5-structure', 'S6-explore', 'S6-steel', 'S7-traceability', 'S9-drawings', 'S9-finalization']",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "I06",
+      "severity": "INFO",
+      "title": "fleet coverage",
+      "evidence": {
+        "architecture": 11,
+        "arrangement": 4,
+        "compliance": 4,
+        "documentation": 6,
+        "drawing": 1,
+        "intake": 4,
+        "naval architecture": 12,
+        "production": 3,
+        "project": 2,
+        "structure": 6,
+        "verification": 11
+      },
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "I06",
+      "severity": "INFO",
+      "title": "fleet size",
+      "evidence": "64 agents",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "I07",
+      "severity": "PASS",
+      "title": "capabilities and limits are both stated",
+      "evidence": "-",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "I08",
+      "severity": "PASS",
+      "title": "geometry regenerates identically",
+      "evidence": "sha256:ee52e1a8e84a28f2",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "I09",
+      "severity": "PASS",
+      "title": "gates raise rather than warn",
+      "evidence": "3 raises vs 1 warnings",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "I10",
+      "severity": "MINOR",
+      "title": "an AGPL dependency is in the open stack",
+      "evidence": "navaltoolbox is AGPL-3.0-or-later",
+      "action_required": "AGPL network-use provisions affect a hosted service; get a licence position before productising",
+      "owner": "legal"
+    },
+    {
+      "agent": "B13",
+      "severity": "PASS",
+      "title": "all drawings read-back verified",
+      "evidence": "4 sheets, 19 checks, hashes recorded",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "C06",
+      "severity": "PASS",
+      "title": "BM diagram confirmed by independent FE",
+      "evidence": "corr 0.99997, max diff 0.605% of peak 2,143,237 kNm",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F11",
+      "severity": "PASS",
+      "title": "FE solver validated against closed forms",
+      "evidence": "cantilever + SS-UDL deflection and moment exact",
+      "action_required": "-",
+      "owner": "design team"
+    },
+    {
+      "agent": "F12",
+      "severity": "PASS",
+      "title": "finalization freeze enforced",
+      "evidence": "status=NOT_FINALIZED, blockers=['R-05'], open=['R-02', 'R-04', 'IS-2.2.3', 'M_vw'], accepted_by=None",
+      "action_required": "-",
+      "owner": "design team"
+    }
+  ],
+  "counts": {
+    "BLOCKER": 3,
+    "MAJOR": 12,
+    "MINOR": 13,
+    "INFO": 15,
+    "PASS": 69
+  },
+  "generated_utc": "2026-10-25T20:09:07+0600"
+}

@@ -1,0 +1,710 @@
+{
+  "lightship": {
+    "mass_t": 9061.5,
+    "lcg_m": 82.65816917728853,
+    "vcg_m": 7.58981956629697,
+    "groups": [
+      {
+        "group": "steel hull",
+        "mass_t": 7200.0,
+        "margin_pct": 2.0,
+        "lcg_m": 88.0,
+        "vcg_m": 7.6
+      },
+      {
+        "group": "outfitting",
+        "mass_t": 900.0,
+        "margin_pct": 5.0,
+        "lcg_m": 94.0,
+        "vcg_m": 10.2
+      },
+      {
+        "group": "machinery",
+        "mass_t": 750.0,
+        "margin_pct": 3.0,
+        "lcg_m": 18.0,
+        "vcg_m": 4.3
+      }
+    ]
+  },
+  "cargo": {
+    "holds": [
+      {
+        "name": "HOLD_1",
+        "x_start_m": 30.0,
+        "x_end_m": 65.5,
+        "lcg_m": 47.75,
+        "vcg_m": 4.71,
+        "mass_t": 8875.0
+      },
+      {
+        "name": "HOLD_2",
+        "x_start_m": 65.5,
+        "x_end_m": 101.0,
+        "lcg_m": 83.25,
+        "vcg_m": 4.71,
+        "mass_t": 8875.0
+      },
+      {
+        "name": "HOLD_3",
+        "x_start_m": 101.0,
+        "x_end_m": 136.5,
+        "lcg_m": 118.75,
+        "vcg_m": 4.71,
+        "mass_t": 8875.0
+      },
+      {
+        "name": "HOLD_4",
+        "x_start_m": 136.5,
+        "x_end_m": 172.0,
+        "lcg_m": 154.25,
+        "vcg_m": 4.71,
+        "mass_t": 8875.0
+      }
+    ],
+    "total_t": 35500.0,
+    "stowage_factor_m3_per_t": 1.35
+  },
+  "tanks": [
+    {
+      "name": "DB_BALLAST_1",
+      "x_min": 30.5,
+      "x_max": 65.0,
+      "y_min": -12.516,
+      "y_max": 12.516,
+      "z_min": 0.35,
+      "z_max": 1.55,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    },
+    {
+      "name": "DB_BALLAST_2",
+      "x_min": 66.0,
+      "x_max": 100.5,
+      "y_min": -12.516,
+      "y_max": 12.516,
+      "z_min": 0.35,
+      "z_max": 1.55,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    },
+    {
+      "name": "DB_BALLAST_3",
+      "x_min": 101.5,
+      "x_max": 136.0,
+      "y_min": -12.516,
+      "y_max": 12.516,
+      "z_min": 0.35,
+      "z_max": 1.55,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    },
+    {
+      "name": "DB_BALLAST_4",
+      "x_min": 137.0,
+      "x_max": 171.5,
+      "y_min": -12.516,
+      "y_max": 12.516,
+      "z_min": 0.35,
+      "z_max": 1.55,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    },
+    {
+      "name": "WING_BALLAST_1P",
+      "x_min": 30.5,
+      "x_max": 65.0,
+      "y_min": -14.9,
+      "y_max": -8.94,
+      "z_min": 1.55,
+      "z_max": 9.424,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    },
+    {
+      "name": "WING_BALLAST_1S",
+      "x_min": 30.5,
+      "x_max": 65.0,
+      "y_min": 8.94,
+      "y_max": 14.9,
+      "z_min": 1.55,
+      "z_max": 9.424,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    },
+    {
+      "name": "WING_BALLAST_2P",
+      "x_min": 66.0,
+      "x_max": 100.5,
+      "y_min": -14.9,
+      "y_max": -8.94,
+      "z_min": 1.55,
+      "z_max": 9.424,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    },
+    {
+      "name": "WING_BALLAST_2S",
+      "x_min": 66.0,
+      "x_max": 100.5,
+      "y_min": 8.94,
+      "y_max": 14.9,
+      "z_min": 1.55,
+      "z_max": 9.424,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    },
+    {
+      "name": "WING_BALLAST_3P",
+      "x_min": 101.5,
+      "x_max": 136.0,
+      "y_min": -14.9,
+      "y_max": -8.94,
+      "z_min": 1.55,
+      "z_max": 9.424,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    },
+    {
+      "name": "WING_BALLAST_3S",
+      "x_min": 101.5,
+      "x_max": 136.0,
+      "y_min": 8.94,
+      "y_max": 14.9,
+      "z_min": 1.55,
+      "z_max": 9.424,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    },
+    {
+      "name": "WING_BALLAST_4P",
+      "x_min": 137.0,
+      "x_max": 171.5,
+      "y_min": -14.9,
+      "y_max": -8.94,
+      "z_min": 1.55,
+      "z_max": 9.424,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    },
+    {
+      "name": "WING_BALLAST_4S",
+      "x_min": 137.0,
+      "x_max": 171.5,
+      "y_min": 8.94,
+      "y_max": 14.9,
+      "z_min": 1.55,
+      "z_max": 9.424,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    },
+    {
+      "name": "FO_DB_1",
+      "x_min": 6.0,
+      "x_max": 16.0,
+      "y_min": -8.94,
+      "y_max": 8.94,
+      "z_min": 0.35,
+      "z_max": 1.55,
+      "density_t_m3": 0.99,
+      "kind": "fuel"
+    },
+    {
+      "name": "FO_DB_2",
+      "x_min": 16.5,
+      "x_max": 28.5,
+      "y_min": -8.94,
+      "y_max": 8.94,
+      "z_min": 0.35,
+      "z_max": 1.55,
+      "density_t_m3": 0.99,
+      "kind": "fuel"
+    },
+    {
+      "name": "FO_WING_P",
+      "x_min": 6.0,
+      "x_max": 28.0,
+      "y_min": -14.304,
+      "y_max": -8.94,
+      "z_min": 1.55,
+      "z_max": 8.815999999999999,
+      "density_t_m3": 0.99,
+      "kind": "fuel"
+    },
+    {
+      "name": "FO_WING_S",
+      "x_min": 6.0,
+      "x_max": 28.0,
+      "y_min": 8.94,
+      "y_max": 14.304,
+      "z_min": 1.55,
+      "z_max": 8.815999999999999,
+      "density_t_m3": 0.99,
+      "kind": "fuel"
+    },
+    {
+      "name": "MDO_TANK",
+      "x_min": 17.0,
+      "x_max": 26.0,
+      "y_min": -5.960000000000001,
+      "y_max": 5.960000000000001,
+      "z_min": 1.55,
+      "z_max": 8.815999999999999,
+      "density_t_m3": 0.9,
+      "kind": "fuel"
+    },
+    {
+      "name": "FW_TANK",
+      "x_min": 6.0,
+      "x_max": 16.0,
+      "y_min": -5.960000000000001,
+      "y_max": 5.960000000000001,
+      "z_min": 1.55,
+      "z_max": 8.815999999999999,
+      "density_t_m3": 1.0,
+      "kind": "fresh"
+    },
+    {
+      "name": "NO5_FO_P",
+      "x_min": 28.5,
+      "x_max": 29.5,
+      "y_min": -13.112,
+      "y_max": -7.152,
+      "z_min": 1.55,
+      "z_max": 8.36,
+      "density_t_m3": 0.99,
+      "kind": "fuel"
+    },
+    {
+      "name": "NO5_FO_S",
+      "x_min": 28.5,
+      "x_max": 29.5,
+      "y_min": 7.152,
+      "y_max": 13.112,
+      "z_min": 1.55,
+      "z_max": 8.36,
+      "density_t_m3": 0.99,
+      "kind": "fuel"
+    },
+    {
+      "name": "FORE_PEAK",
+      "x_min": 171.5,
+      "x_max": 179.5,
+      "y_min": -8.94,
+      "y_max": 8.94,
+      "z_min": 0.35,
+      "z_max": 8.36,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    },
+    {
+      "name": "AFT_PEAK",
+      "x_min": 0.5,
+      "x_max": 5.5,
+      "y_min": -7.45,
+      "y_max": 7.45,
+      "z_min": 0.35,
+      "z_max": 8.36,
+      "density_t_m3": 1.025,
+      "kind": "ballast"
+    }
+  ],
+  "capacities": [
+    {
+      "tank": "DB_BALLAST_1",
+      "kind": "ballast",
+      "volume_m3_100pct": 916.283844,
+      "mass_t_100pct": 939.1909400999999,
+      "lcg_m": 47.997296492881595,
+      "vcg_m": 0.9731856738925544,
+      "box_volume_m3": 1036.3248,
+      "hull_intersection_ratio": 0.8841666666666667
+    },
+    {
+      "tank": "DB_BALLAST_2",
+      "kind": "ballast",
+      "volume_m3_100pct": 932.6923200000001,
+      "mass_t_100pct": 956.009628,
+      "lcg_m": 83.25,
+      "vcg_m": 0.9796296296296296,
+      "box_volume_m3": 1036.3248,
+      "hull_intersection_ratio": 0.9
+    },
+    {
+      "tank": "DB_BALLAST_3",
+      "kind": "ballast",
+      "volume_m3_100pct": 932.6923200000001,
+      "mass_t_100pct": 956.009628,
+      "lcg_m": 118.75,
+      "vcg_m": 0.9796296296296296,
+      "box_volume_m3": 1036.3248,
+      "hull_intersection_ratio": 0.9
+    },
+    {
+      "tank": "DB_BALLAST_4",
+      "kind": "ballast",
+      "volume_m3_100pct": 804.0153240000001,
+      "mass_t_100pct": 824.1157071,
+      "lcg_m": 152.59706597320366,
+      "vcg_m": 0.9665413533834587,
+      "box_volume_m3": 1036.3248,
+      "hull_intersection_ratio": 0.7758333333333334
+    },
+    {
+      "tank": "WING_BALLAST_1P",
+      "kind": "ballast",
+      "volume_m3_100pct": 1486.1547048500004,
+      "mass_t_100pct": 1523.3085724712503,
+      "lcg_m": 48.49222352294718,
+      "vcg_m": 5.624607353608716,
+      "box_volume_m3": 1619.0518800000002,
+      "hull_intersection_ratio": 0.9179166666666668
+    },
+    {
+      "tank": "WING_BALLAST_1S",
+      "kind": "ballast",
+      "volume_m3_100pct": 1486.1547048500004,
+      "mass_t_100pct": 1523.3085724712503,
+      "lcg_m": 48.49222352294718,
+      "vcg_m": 5.624607353608716,
+      "box_volume_m3": 1619.0518800000002,
+      "hull_intersection_ratio": 0.9179166666666668
+    },
+    {
+      "tank": "WING_BALLAST_2P",
+      "kind": "ballast",
+      "volume_m3_100pct": 1565.0834840000002,
+      "mass_t_100pct": 1604.2105711000002,
+      "lcg_m": 83.25,
+      "vcg_m": 5.6227586206896545,
+      "box_volume_m3": 1619.0518800000002,
+      "hull_intersection_ratio": 0.9666666666666667
+    },
+    {
+      "tank": "WING_BALLAST_2S",
+      "kind": "ballast",
+      "volume_m3_100pct": 1565.0834840000002,
+      "mass_t_100pct": 1604.2105711000002,
+      "lcg_m": 83.25,
+      "vcg_m": 5.6227586206896545,
+      "box_volume_m3": 1619.0518800000002,
+      "hull_intersection_ratio": 0.9666666666666667
+    },
+    {
+      "tank": "WING_BALLAST_3P",
+      "kind": "ballast",
+      "volume_m3_100pct": 1565.0834840000002,
+      "mass_t_100pct": 1604.2105711000002,
+      "lcg_m": 118.75,
+      "vcg_m": 5.6227586206896545,
+      "box_volume_m3": 1619.0518800000002,
+      "hull_intersection_ratio": 0.9666666666666667
+    },
+    {
+      "tank": "WING_BALLAST_3S",
+      "kind": "ballast",
+      "volume_m3_100pct": 1565.0834840000002,
+      "mass_t_100pct": 1604.2105711000002,
+      "lcg_m": 118.75,
+      "vcg_m": 5.6227586206896545,
+      "box_volume_m3": 1619.0518800000002,
+      "hull_intersection_ratio": 0.9666666666666667
+    },
+    {
+      "tank": "WING_BALLAST_4P",
+      "kind": "ballast",
+      "volume_m3_100pct": 1022.7011042000003,
+      "mass_t_100pct": 1048.2686318050003,
+      "lcg_m": 149.01223788362728,
+      "vcg_m": 5.653205804749339,
+      "box_volume_m3": 1619.0518800000002,
+      "hull_intersection_ratio": 0.6316666666666667
+    },
+    {
+      "tank": "WING_BALLAST_4S",
+      "kind": "ballast",
+      "volume_m3_100pct": 1022.7011042000003,
+      "mass_t_100pct": 1048.2686318050003,
+      "lcg_m": 149.01223788362728,
+      "vcg_m": 5.653205804749339,
+      "box_volume_m3": 1619.0518800000002,
+      "hull_intersection_ratio": 0.6316666666666667
+    },
+    {
+      "tank": "FO_DB_1",
+      "kind": "fuel",
+      "volume_m3_100pct": 155.9136,
+      "mass_t_100pct": 154.354464,
+      "lcg_m": 11.373611781747947,
+      "vcg_m": 0.9581039755351684,
+      "box_volume_m3": 214.56,
+      "hull_intersection_ratio": 0.7266666666666667
+    },
+    {
+      "tank": "FO_DB_2",
+      "kind": "fuel",
+      "volume_m3_100pct": 249.10416000000004,
+      "mass_t_100pct": 246.61311840000005,
+      "lcg_m": 22.66129470964232,
+      "vcg_m": 0.9557995980476603,
+      "box_volume_m3": 257.47200000000004,
+      "hull_intersection_ratio": 0.9675
+    },
+    {
+      "tank": "FO_WING_P",
+      "kind": "fuel",
+      "volume_m3_100pct": 235.44041597999998,
+      "mass_t_100pct": 233.08601182019999,
+      "lcg_m": 22.695471607699066,
+      "vcg_m": 5.409028831562973,
+      "box_volume_m3": 857.4461279999999,
+      "hull_intersection_ratio": 0.27458333333333335
+    },
+    {
+      "tank": "FO_WING_S",
+      "kind": "fuel",
+      "volume_m3_100pct": 235.44041597999998,
+      "mass_t_100pct": 233.08601182019999,
+      "lcg_m": 22.695471607699066,
+      "vcg_m": 5.409028831562973,
+      "box_volume_m3": 857.4461279999999,
+      "hull_intersection_ratio": 0.27458333333333335
+    },
+    {
+      "tank": "MDO_TANK",
+      "kind": "fuel",
+      "volume_m3_100pct": 779.49648,
+      "mass_t_100pct": 701.546832,
+      "lcg_m": 21.5,
+      "vcg_m": 5.183,
+      "box_volume_m3": 779.49648,
+      "hull_intersection_ratio": 1.0
+    },
+    {
+      "tank": "FW_TANK",
+      "kind": "fresh",
+      "volume_m3_100pct": 864.663688,
+      "mass_t_100pct": 864.663688,
+      "lcg_m": 11.007907916703278,
+      "vcg_m": 5.18906510851419,
+      "box_volume_m3": 866.1072,
+      "hull_intersection_ratio": 0.9983333333333333
+    },
+    {
+      "tank": "NO5_FO_P",
+      "kind": "fuel",
+      "volume_m3_100pct": 36.495017,
+      "mass_t_100pct": 36.13006683,
+      "lcg_m": 29.003951026779184,
+      "vcg_m": 5.052826691380909,
+      "box_volume_m3": 40.587599999999995,
+      "hull_intersection_ratio": 0.8991666666666667
+    },
+    {
+      "tank": "NO5_FO_S",
+      "kind": "fuel",
+      "volume_m3_100pct": 36.495017,
+      "mass_t_100pct": 36.13006683,
+      "lcg_m": 29.003951026779184,
+      "vcg_m": 5.052826691380909,
+      "box_volume_m3": 40.587599999999995,
+      "hull_intersection_ratio": 0.8991666666666667
+    },
+    {
+      "tank": "FORE_PEAK",
+      "kind": "ballast",
+      "volume_m3_100pct": 677.9023199999999,
+      "mass_t_100pct": 694.8498779999999,
+      "lcg_m": 174.8506300963677,
+      "vcg_m": 4.5355070422535215,
+      "box_volume_m3": 1145.7504,
+      "hull_intersection_ratio": 0.5916666666666667
+    },
+    {
+      "tank": "AFT_PEAK",
+      "kind": "ballast",
+      "volume_m3_100pct": 334.1772,
+      "mass_t_100pct": 342.53163,
+      "lcg_m": 3.3798558897243103,
+      "vcg_m": 4.539092261904762,
+      "box_volume_m3": 596.745,
+      "hull_intersection_ratio": 0.56
+    }
+  ],
+  "conditions": {
+    "departure_full_cargo": {
+      "summary": {
+        "displacement_t": 46730.08286493035,
+        "lcg_m": 93.5952632845853,
+        "vcg_m": 5.259680872618325,
+        "n_tanks_filled": 8
+      },
+      "results": {
+        "displacement_t": 46730.08284663717,
+        "lcg_m": 93.5952632845853,
+        "vcg_m": 5.259680872618325,
+        "n_tanks_filled": 8,
+        "zeta_m": -10.21617514007216,
+        "trim_deg": 0.6771406621298637,
+        "trim_m": 2.1273991772721974,
+        "volume_m3": 45590.32472842651,
+        "lcb_m_from_ap": 93.595263126923,
+        "volume_residual_pct": -3.914647977670162e-08,
+        "lcb_residual_m": -1.576622992160992e-07,
+        "converged": true,
+        "draft_m": 10.185175649652226,
+        "trim_m_over_lpp": 2.1273991772721974,
+        "KB_m": 5.325640695200032,
+        "BMt_m": 6.743068109809202,
+        "Awp_m2": 4715.243940214637,
+        "LCF_m": 90.93981697097455,
+        "GM_solid_m": 6.809027932390909,
+        "GM_fluid_note": "free-surface correction applied in stability stage"
+      }
+    },
+    "arrival_full_cargo": {
+      "summary": {
+        "displacement_t": 44898.52739477004,
+        "lcg_m": 96.66065239829332,
+        "vcg_m": 5.2912235737345,
+        "n_tanks_filled": 8
+      },
+      "results": {
+        "displacement_t": 44898.52739471002,
+        "lcg_m": 96.66065239829332,
+        "vcg_m": 5.2912235737345,
+        "n_tanks_filled": 8,
+        "zeta_m": -9.943915112366371,
+        "trim_deg": 1.3938905999680293,
+        "trim_m": 4.3799005851693105,
+        "volume_m3": 43803.441360692705,
+        "lcb_m_from_ap": 96.6606523976284,
+        "volume_residual_pct": -1.336810649115262e-10,
+        "lcb_residual_m": -6.649258921243018e-10,
+        "converged": true,
+        "draft_m": 9.806216046795452,
+        "trim_m_over_lpp": 4.3799005851693105,
+        "KB_m": 5.135134110825047,
+        "BMt_m": 5.696481283235533,
+        "Awp_m2": 3150.7120898447915,
+        "LCF_m": 101.33760445380783,
+        "GM_solid_m": 5.5403918203260805,
+        "GM_fluid_note": "free-surface correction applied in stability stage"
+      }
+    },
+    "ballast_departure": {
+      "summary": {
+        "displacement_t": 27502.78696908287,
+        "lcg_m": 86.64813816251961,
+        "vcg_m": 5.524485910091831,
+        "n_tanks_filled": 22
+      },
+      "results": {
+        "displacement_t": 27502.786969090273,
+        "lcg_m": 86.64813816251961,
+        "vcg_m": 5.524485910091831,
+        "n_tanks_filled": 22,
+        "zeta_m": -6.254125166494674,
+        "trim_deg": -0.6305742015512599,
+        "trim_m": -1.9810872649547335,
+        "volume_m3": 26831.98728691734,
+        "lcb_m_from_ap": 86.64813816106168,
+        "volume_residual_pct": 2.691335477637162e-11,
+        "lcb_residual_m": -1.4579342177967192e-09,
+        "converged": true,
+        "draft_m": 6.206934624257701,
+        "trim_m_over_lpp": -1.9810872649547335,
+        "KB_m": 3.3189237663097275,
+        "BMt_m": 11.457089440052721,
+        "Awp_m2": 4715.233982,
+        "LCF_m": 90.93984805609165,
+        "GM_solid_m": 9.25152729627062,
+        "GM_fluid_note": "free-surface correction applied in stability stage"
+      }
+    },
+    "ballast_partial": {
+      "summary": {
+        "displacement_t": 20180.070122214245,
+        "lcg_m": 82.52609534166949,
+        "vcg_m": 5.893312666577634,
+        "n_tanks_filled": 22
+      },
+      "results": {
+        "displacement_t": 20180.07012206406,
+        "lcg_m": 82.52609534166949,
+        "vcg_m": 5.893312666577634,
+        "n_tanks_filled": 22,
+        "zeta_m": -4.825611478106305,
+        "trim_deg": -0.910087645662961,
+        "trim_m": -2.859365140562751,
+        "volume_m3": 19687.873289818595,
+        "lcb_m_from_ap": 82.52609528802441,
+        "volume_residual_pct": -7.442308891184734e-10,
+        "lcb_residual_m": -5.3645081266040506e-08,
+        "converged": true,
+        "draft_m": 4.69182126564192,
+        "trim_m_over_lpp": -2.859365140562751,
+        "KB_m": 2.5458485189746214,
+        "BMt_m": 10.76673470200152,
+        "Awp_m2": 2910.153216378448,
+        "LCF_m": 111.1175289602503,
+        "GM_solid_m": 7.419270554398507,
+        "GM_fluid_note": "free-surface correction applied in stability stage"
+      }
+    },
+    "heavy_weather": {
+      "summary": {
+        "displacement_t": 46001.12516573004,
+        "lcg_m": 96.71733020901858,
+        "vcg_m": 5.187769465545339,
+        "n_tanks_filled": 12
+      },
+      "results": {
+        "displacement_t": 46001.12516567499,
+        "lcg_m": 96.71733020901858,
+        "vcg_m": 5.187769465545339,
+        "n_tanks_filled": 12,
+        "zeta_m": -10.177968494352271,
+        "trim_deg": 1.441859112993176,
+        "trim_m": 4.530690445985842,
+        "volume_m3": 44879.14650309755,
+        "lcb_m_from_ap": 96.7173302084663,
+        "volume_residual_pct": -1.19679457594254e-10,
+        "lcb_residual_m": -5.522906576516107e-10,
+        "converged": true,
+        "draft_m": 10.034350036795512,
+        "trim_m_over_lpp": 4.530690445985842,
+        "KB_m": 5.249829012843876,
+        "BMt_m": 6.8498735414223635,
+        "Awp_m2": 4715.233981999999,
+        "LCF_m": 90.93984805609166,
+        "GM_solid_m": 6.911933088720902,
+        "GM_fluid_note": "free-surface correction applied in stability stage"
+      }
+    }
+  },
+  "hull_metrics": {
+    "Lpp_m": 180.0,
+    "B_m": 29.8,
+    "D_m": 15.2,
+    "T_design_m": 10.5,
+    "fullness_exponent_solved": 0.86107,
+    "displaced_volume_m3": 47592.09,
+    "displacement_t_rho1025": 48781.9,
+    "Cb": 0.845,
+    "Cm": 0.96087,
+    "Cp": 0.87941,
+    "LCB_m_from_AP": 90.94,
+    "LCB_pct_Lpp": 50.52,
+    "Am_midship_m2": 300.66,
+    "awp_m2": 4717.146,
+    "lcf_m_from_ap": 90.941,
+    "it_m4": 307460.29,
+    "tpc_t_per_cm": 48.351,
+    "mesh_vertices": 14223,
+    "mesh_triangles": 28960,
+    "vertices_welded": 259,
+    "mesh_closed": true,
+    "mesh_volume_to_main_deck_m3": 69826.2
+  }
+}

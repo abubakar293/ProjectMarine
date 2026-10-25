@@ -1,0 +1,19 @@
+name: Skill proposal
+description: Propose a new skill or a new domain for an existing one.
+labels: [enhancement]
+body:
+  - type: input
+    id: name
+    attributes: { label: Proposed skill name, description: "lowercase-hyphen, <= 64 chars" }
+    validations: { required: true }
+  - type: textarea
+    id: gates
+    attributes:
+      label: What gates would it enforce?
+      description: Numbers, criteria, and where the criteria come from (rule clause + edition, parent-ship band + source).
+    validations: { required: true }
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence base
+      description: Parent ships, rule documents, papers, or yard data the skill would encode.

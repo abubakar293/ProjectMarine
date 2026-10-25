@@ -1,0 +1,26 @@
+{
+  "name": "ProjectMarine",
+  "owner": {
+    "name": "ProjectMarine contributors",
+    "url": "https://github.com/abubakar293/ProjectMarine"
+  },
+  "metadata": {
+    "description": "Verified agent skills for ship design: owner's brief to shipyard-ready package, with two-solver cross-checks, plausibility gates, provenance discipline, and refusal instead of invention.",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "ship-design",
+      "source": "./",
+      "description": "33 skills for the full ship design pipeline (intake, naval architecture, structure, arrangement, compliance, production handoff) plus the verification discipline that makes agent-produced engineering trustworthy.",
+      "version": "0.2.0",
+      "author": {
+        "name": "ProjectMarine contributors"
+      },
+      "homepage": "https://github.com/abubakar293/ProjectMarine",
+      "repository": "https://github.com/abubakar293/ProjectMarine",
+      "license": "MIT",
+      "keywords": ["naval-architecture", "ship-design", "marine-engineering", "engineering", "verification"]
+    }
+  ]
+}

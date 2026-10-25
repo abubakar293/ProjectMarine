@@ -1,0 +1,27 @@
+name: Bug / silent-defect report
+description: A skill, gate, or reference-implementation number is wrong — especially if it looked right.
+labels: [bug]
+body:
+  - type: textarea
+    id: symptom
+    attributes:
+      label: What did you observe?
+      description: Include the plausible-looking output. Silent defects are this repo's specialty.
+    validations: { required: true }
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction
+      description: Command or prompt sequence, harness (Claude Code / Codex / ...), and skill versions.
+    validations: { required: true }
+  - type: textarea
+    id: gate
+    attributes:
+      label: Which gate should have caught it?
+      description: ground truth / two-solver crosscheck / plausibility band / equilibrium identity / none — and if none, propose one.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety
+      options:
+        - label: This could affect a real vessel or submission if not fixed
